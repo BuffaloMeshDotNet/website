@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1409614366
+host=173.245.55.206
+name=Nodes.UbuiquityNanostations
+rev=1
+targets=
+text=There's plans to get some Nanostations ([[http://www.amazon.com/Ubiquiti-NSM2-US-NanoStation-M2/dp/B004EFH6L8/ref=sr_1_1?ie=UTF8&qid=1409614271&sr=8-1&keywords=ubiquity+nanostation+m2|Amazon Link]]) to start testing for possible field units.
+time=1409614366
+author:1409614366=creichle
+diff:1409614366:1409614366:=1d0%0a%3c There's plans to get some Nanostations ([[http://www.amazon.com/Ubiquiti-NSM2-US-NanoStation-M2/dp/B004EFH6L8/ref=sr_1_1?ie=UTF8&qid=1409614271&sr=8-1&keywords=ubiquity+nanostation+m2|Amazon Link]]) to start testing for possible field units.%0a\ No newline at end of file%0a
+host:1409614366=173.245.55.206

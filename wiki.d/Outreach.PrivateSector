@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1410056504
+host=173.245.55.206
+name=Outreach.PrivateSector
+rev=1
+targets=
+text=Some ideas for reaching out to the private sector are:%0a* Offering a captive portal, delivering ads for sponsors/location hosts%0a* Hitting on the business-enabling points of having wifi available%0a%0aMore to come.  Working on some presentations to offer private businesses in order to entice their support/participation
+time=1410056504
+author:1410056504=creichle
+diff:1410056504:1410056504:=1,5d0%0a%3c Some ideas for reaching out to the private sector are:%0a%3c * Offering a captive portal, delivering ads for sponsors/location hosts%0a%3c * Hitting on the business-enabling points of having wifi available%0a%3c %0a%3c More to come.  Working on some presentations to offer private businesses in order to entice their support/participation%0a\ No newline at end of file%0a
+host:1410056504=173.245.55.206

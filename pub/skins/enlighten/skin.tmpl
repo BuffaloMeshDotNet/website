@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>$WikiTitle {$Group} - {$Titlespaced}</title>
+	<link rel="stylesheet" type="text/css" href="$SkinDirUrl/default.css" media="screen" title="style (screen)" />
+	<link rel="stylesheet" type="text/css" href="$SkinDirUrl/$SkinColor/color.css" media="screen" title="style (screen)" />
+<!--HTMLHeader-->
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<div class="pageactions">
+			<!--PageActionFmt-->
+			<!--wiki:{$Group}.PageActions {$SiteGroup}.PageActions-->
+			<!--/PageActionFmt-->
+		</div>
+
+		<div class="headerphoto"></div>
+		<div id="logo-box">
+			<!--PageHeaderFmt-->
+			<!--wiki:{$Group}.SiteHeader {$SiteGroup}.SiteHeader-->
+			<!--/PageHeaderFmt-->
+		</div>
+	</div>
+
+	<div id="menu">
+		<!--PageTabsFmt-->
+		<!--wiki:{$Group}.SiteNav {$SiteGroup}.SiteNav -->
+		<!--/PageTabsFmt-->
+	</div>
+
+	<div id="body-wrap">
+		<div id="content-wrap"><div id="content">
+			<div id="main">
+				<!--PageTitleGroupFmt-->
+
+				<!--/PageTitleGroupFmt-->
+				<!--PageTitleFmt-->
+				<h2 class='page-head'><a href='{$PageUrl}'>{$Titlespaced}</a></h2>
+				<!--/PageTitleFmt-->
+
+				<!--PageText-->
+			</div>
+		</div></div>
+
+		<div id="sidebar" >
+			<!--PageSearchFmt-->
+			<p class="sidehead clear">$[Search]</p>
+			<form id="searchform" class="searchform" action='$ScriptUrl' method="get"><fieldset><p>
+				<input type='hidden' name='n' value='{$FullName}' />
+				<input type='hidden' name='action' value='search' />
+				<input id='s' class='textbox' type='text' name='q' value="" />
+				<input id='searchsubmit' class='button' type='submit' value='$[Go]' />
+			</p></fieldset></form>
+			<!--/PageSearchFmt-->
+
+			<!--PageRightFmt-->
+			<!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar-->
+			<!--/PageRightFmt-->
+		</div>
+	</div>
+	<div id="footer">
+		<!--PageFooterFmt-->
+			<!--wiki:{$Group}.SiteFooter {$SiteGroup}.SiteFooter-->
+		<!--/PageFooterFmt-->
+	</div>
+
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6265759-6");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

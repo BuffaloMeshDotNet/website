@@ -1,0 +1,27 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1414359744
+host=38.97.88.20
+name=Projects.Kaisertown
+rev=5
+targets=
+text=(:toc-float:)%0aThe Kaisertown local mesh network is a distributed mesh network, which is a fully routed mesh.  This means any and all hosts connected are completely routable, without the need for NAT.%0a%0a!Current Networks Presented%0aNetwork allocations for the Kaisertown mesh are currently:%0a||border=1 width=50%25%0a|| 10 ||315BARNARD||[[https://www.google.com/maps/place/42%25C2%25B052'25.0%2522N+78%25C2%25B048'19.9%2522W|42.873613,-78.8055229]]||%0a|| 20 ||TBD|| ||%0a%0a!Accesibility%0aThe network can be accessed via the Buffalomesh.net wireless network name.
+time=1415024202
+author:1415024202=creichle
+diff:1415024202:1414372221:=11c11%0a%3c The network can be accessed via the Buffalomesh.net wireless network name.%0a\ No newline at end of file%0a---%0a> The network can be accessed via the Buffalomesh.net wireless network name.  Client addresses for the nodes are 192.168.X.Y, whereas X is the node number, and Y is the client DHCP address.%0a\ No newline at end of file%0a
+host:1415024202=38.97.88.20
+author:1414372221=creichle
+diff:1414372221:1414359868:=1d0%0a%3c (:toc-float:)%0a8,11c7%0a%3c || 20 ||TBD|| ||%0a%3c %0a%3c !Accesibility%0a%3c The network can be accessed via the Buffalomesh.net wireless network name.  Client addresses for the nodes are 192.168.X.Y, whereas X is the node number, and Y is the client DHCP address.%0a\ No newline at end of file%0a---%0a> || 20 ||TBD|| ||%0a\ No newline at end of file%0a
+host:1414372221=108.183.122.28
+author:1414359868=creichle
+diff:1414359868:1414359814:=6c6%0a%3c || 10 ||315BARNARD||[[https://www.google.com/maps/place/42%25C2%25B052'25.0%2522N+78%25C2%25B048'19.9%2522W|42.873613,-78.8055229]]||%0a---%0a> || 10 ||315BARNARD||42.873613,-78.8055229||%0a
+host:1414359868=108.183.122.28
+author:1414359814=creichle
+diff:1414359814:1414359744:=6,7c6,7%0a%3c || 10 ||315BARNARD||42.873613,-78.8055229||%0a%3c || 20 ||TBD|| ||%0a\ No newline at end of file%0a---%0a> || 10 ||315BARNARD||%0a> || 20 ||TBD||%0a\ No newline at end of file%0a
+host:1414359814=108.183.122.28
+author:1414359744=creichle
+diff:1414359744:1414359744:=1,7d0%0a%3c The Kaisertown local mesh network is a distributed mesh network, which is a fully routed mesh.  This means any and all hosts connected are completely routable, without the need for NAT.%0a%3c %0a%3c !Current Networks Presented%0a%3c Network allocations for the Kaisertown mesh are currently:%0a%3c ||border=1 width=50%25%0a%3c || 10 ||315BARNARD||%0a%3c || 20 ||TBD||%0a\ No newline at end of file%0a
+host:1414359744=108.183.122.28

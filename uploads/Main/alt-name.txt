@@ -1,0 +1,49 @@
+[10:32] <xavia> ugv: I had to reset the current participants since I extended the dates on that doodle. can you add yourselv back?
+[10:32] <ugv> sure thang.  You have the link for it again?
+[10:33] <xavia> http://doodle.com/axcdu47tism6itb7
+[10:33] <ugv> thanks
+[10:33] <xavia> I just sent out an email to the list as well
+[10:33] <ugv> Oh, excellent!  I hit you up yesterday to do that, but it seemed you were swamped again.
+[10:34] <xavia> more so forgetful
+[10:34] <xavia> even if I am not swamped, sometimes my brain shuts down when I get home
+[10:34] <xavia> either way :-P
+[10:35] <ugv> Well, we've all got things going on.  I had to veg out last week after work, as school + work was hammering me
+[10:38] <ugv> So, we're linking our "Uplink" to the Foundry, correct?
+[10:39] <xavia> yep yep
+[10:39] <ugv> Excellent.  So, this part being "Hub and spoke" isn't very harmful to the goal of a meshed network, since it's the exact same thing as running a long ethernet cable.
+[10:40] <ugv> I was wracking my brain on how to make a hub-spoke into a mesh, but I think I've got a handle on it now.
+[10:40] <xavia> awesome. yeah I think one of the next things will be..
+[10:41] <xavia> the uplink is at one house, back to the foundry. the house immediately next door is owned by another foundry member.. so we could mesht hose two together.
+[10:41] <ugv> +++xavia
+[10:41] <xavia> and a third house is across the street on northampton. I can show you all of this tonight.
+[10:42] <xavia> from there, the next houses we had interest from are further away..
+[10:42] <ugv> I think I know which house you're talking about across the street.
+[10:43] <ugv> Doodle tweeted, and facebooked
+[10:48] <xavia> thanks
+[11:02] <ugv> I think if MJ is at the meeting tonight, I'll see if he wants to take over social media management, so I can pawn it off on someone else lol
+[13:48] <xavia> heh I just chuckled. " Rusted Grain is right there, right?  Are they bottling yet?"
+[13:48] <xavia> Rusted Grain = wood shop
+[13:49] <xavia> I get it though, Grain and all
+[13:49] <xavia> :-P
+[14:20] <ugv> I thought they were brewing?
+[14:20] <ugv> *brewey
+[14:20] <ugv> brewery dammit lol
+[14:21] <ugv> I have no idea why I thought that tbh
+[14:30] <xavia> I mean. when you said it.. it makes sense
+[14:40] <ugv> Yeah, like I said, I have no idea why I even thought that initially.  Must be getting antsy to have Flying Bison open again
+[14:41] <xavia> haha yeah maybe
+[14:41] <xavia> we used to have a brewer at The Foundry, but they moved out into a bigger space
+[14:41] <ugv> Oh, well that might be why.  I might have heard that, and just figured it was Rusted Grain
+[14:41] <ugv> Or, my brain put "Rusty Chain" there first
+[14:41] <ugv> Was it Resurgence?
+[14:42] <xavia> no no they are different, I am trying to remember who it was
+[14:44] <ugv> Oh so The Barrel Factory is like the southside's version of The Foundry... http://buffalorising.com/2014/10/barrel-factory-flood-gates-are-opening-at-makers-market/
+[14:44] <ugv> Definitley working with them on the mesh net would be advantageous
+[14:44] <xavia> awesome. yeah if you have a meeting with them, i'd like to try and attend
+[14:45] <ugv> Most definitley.  Checking my email to see if they are one of the people who said they'd try to make it tonight
+[14:46] <ugv> Not, Adam did not say, he just wanted to meet.  I'll make sure I include you on the next email thread with him
+[14:49] <ugv> Ducking out to go an get ready for the meetup.  See you later tonight
+[18:16] <ugv> Down at the Foundry right now, FWIW
+[18:17] <xavia> ugv: kevin there with ya? I am leaving my office now.
+[18:17] <xavia> see ya soon
+[18:17] <ugv> Cool beans

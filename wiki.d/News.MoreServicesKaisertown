@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1415194753
+host=38.97.88.20
+name=News.MoreServicesKaisertown
+rev=1
+targets=Profiles.Mlehner
+text=Firstly, I hope everyone had safe and fun halloween weekend.  It's been a busy couple of weeks since the last meetup.  [[Profiles/mlehner|Matt]] has been working on hardware for the Northampton network, and I have been working on sample apps to deploy to the local mesh networks.%0a%0aCurrently, in the Kaisertown network, there are three apps published:  This site, an eBook ''library'', and a web-based chat application.  The library could probably use some sprucing up, but it is a start for a great idea:  Free eBooks to anyone with an electronic device, available completely for free and without the need to pay for an ISP.  Steps will be solidified on deploying these apps to any local mesh operator who would like to deploy them.%0a%0aWe're making great strides thus far:  We've gotten some nodes in the air, some basic apps for the mesh are now ready to deploy, and we're finalized on hardware specs.  Details and demos will be done at our i[[http://nextplex.com/buffalo-ny/calendar/events/21491-buffalomesh-net-meetup-6|next meetup]] this Friday at d!g Buffalo.%0a%0aNext plans are to get another pair of nodes in the air in the Northampton network, and to add another node in the Kaisertown network.  After which, we will start to work hard at getting Northampton "feature-complete".
+time=1415194753
+author:1415194753=creichle
+diff:1415194753:1415194753:=1,7d0%0a%3c Firstly, I hope everyone had safe and fun halloween weekend.  It's been a busy couple of weeks since the last meetup.  [[Profiles/mlehner|Matt]] has been working on hardware for the Northampton network, and I have been working on sample apps to deploy to the local mesh networks.%0a%3c %0a%3c Currently, in the Kaisertown network, there are three apps published:  This site, an eBook ''library'', and a web-based chat application.  The library could probably use some sprucing up, but it is a start for a great idea:  Free eBooks to anyone with an electronic device, available completely for free and without the need to pay for an ISP.  Steps will be solidified on deploying these apps to any local mesh operator who would like to deploy them.%0a%3c %0a%3c We're making great strides thus far:  We've gotten some nodes in the air, some basic apps for the mesh are now ready to deploy, and we're finalized on hardware specs.  Details and demos will be done at our i[[http://nextplex.com/buffalo-ny/calendar/events/21491-buffalomesh-net-meetup-6|next meetup]] this Friday at d!g Buffalo.%0a%3c %0a%3c Next plans are to get another pair of nodes in the air in the Northampton network, and to add another node in the Kaisertown network.  After which, we will start to work hard at getting Northampton "feature-complete".%0a\ No newline at end of file%0a
+host:1415194753=38.97.88.20

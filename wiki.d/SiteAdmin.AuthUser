@@ -1,0 +1,14 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36
+author=
+charset=UTF-8
+csum=
+host=173.245.55.206
+name=SiteAdmin.AuthUser
+rev=6
+targets=
+text=htpasswd: /var/www/buffalomesh.net/wiki/local/.htpasswd%0ahtgroup: /var/www/buffalomesh.net/wiki/local/.htgroup
+time=1409600556
+author:1409600556=
+diff:1409600556:1000000000:=1,2c1,42%0a%3c htpasswd: /var/www/buffalomesh.net/wiki/local/.htpasswd%0a%3c htgroup: /var/www/buffalomesh.net/wiki/local/.htgroup%0a\ No newline at end of file%0a---%0a> (:Summary: Configuration of identity based authorisations:)(:nolinkwikiwords:)%0a> This is the default configuration page for PmWiki's identity-based authorizations (aka "authuser.php").  See [[PmWiki.AuthUser]] for instructions.%0a> %0a> (:if enabled EnableAuthUser:)%0a> This site appears to have the [[PmWiki/AuthUser]] extensions enabled.%0a> (:if !enabled EnableAuthUser:)%0a> At present this site doesn't appear to have the [[PmWiki/AuthUser]] extensions enabled.  To enable them, add the line [@include_once("$FarmD/scripts/authuser.php");@] to your ''local/config.php'' file.  (See [[PmWiki.LocalCustomizations]].)%0a> (:ifend:)%0a> %0a> !! Login accounts%0a> %0a> Specify login accounts in the form "@@[=username: (:=]encrypt ''password'':)@@" at the beginning of a line:%0a> %0a> -> # Examples:%0a> -> alice: [=(:=]encrypt wonderland:)%0a> -> bob: [=(:=]encrypt builder:)%0a> %0a> Note that the passwords will be encrypted when the page is saved, so that the result will look something like:%0a> %0a> -> alice: $1$0gcdAN1a$HTdEAXyYYo8Hc9/Xv30Yz1%0a> -> bob: $1$wSP2R80i$sJ593ERCmTtjm3Fk26HCV1%0a> %0a> To authorize specific login accounts for pages and groups, use "[@id:username@]" as a password in [@?action=attr@] or $DefaultPasswords (see [[PmWiki.Passwords]]).  Use "[@id:*@]" to mean "any logged-in user".%0a> %0a> !! Authorization groups%0a> %0a> Authorization groups are specified with a leading "@" sign.  Define either the login accounts belonging to a group or the groups for a login account:%0a> %0a> -> @writers: alice, bob  %0a> -> carol: @editors, @writers%0a> -> @admins: alice, dave%0a> %0a> Then use "[@@group@]" as a password in [@?action=attr@] or $DefaultPasswords.%0a> %0a> !! Login accounts from external sources%0a> %0a> Obtaining login accounts from external sources (to enable a source, place it at the beginning of a line):%0a> %0a> -> htpasswd: /filesystem/path/to/.htpasswd%0a> -> ldap: ldap://ldap.example.com/ou=People,o=example?uid?sub%0a> %0a> %0a
+host:1409600556=173.245.55.206

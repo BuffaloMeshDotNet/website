@@ -1,0 +1,27 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+author=
+charset=UTF-8
+csum=
+ctime=1408800652
+host=173.245.55.206
+name=Main.LiveChat
+rev=5
+targets=
+text=We operate on IRC for live chat to discuss the future plans for the network, and all other sorts of things.  We can be found on freenode's IRC network, in #buffalomesh.net using your favorite IRC client, or by clicking here [[http://webchat.freenode.net?channels=%2523buffalomesh.net&uio=d4|Webchat]].%0a%0aThe channel is logged, in order to facilitate creation of FAQs, to summarize issues for us to cover in our meetings, etc etc.  They will not be publicly searchable, but please act as your comments there will be logged for all perpetuity.
+time=1409015645
+author:1409015645=
+diff:1409015645:1408901807:=3c3%0a%3c The channel is logged, in order to facilitate creation of FAQs, to summarize issues for us to cover in our meetings, etc etc.  They will not be publicly searchable, but please act as your comments there will be logged for all perpetuity.%0a\ No newline at end of file%0a---%0a> The channel, at some point in the future, will be logged, in order to facilitate creation of FAQs, to summarize issues for us to cover in our meetings, etc etc.  They will not be publicly searchable, but please act as your comments there will be logged for all perpetuity.%0a\ No newline at end of file%0a
+host:1409015645=173.245.55.206
+author:1408901807=
+diff:1408901807:1408824995:=1c1%0a%3c We operate on IRC for live chat to discuss the future plans for the network, and all other sorts of things.  We can be found on freenode's IRC network, in #buffalomesh.net using your favorite IRC client, or by clicking here [[http://webchat.freenode.net?channels=%2523buffalomesh.net&uio=d4|Webchat]].%0a---%0a> We operate on IRC for live chat to discuss the future plans for the network, and all other sorts of things.  We can be found on freenode's IRC network, in #buffalomesh.net using your favorite IRC client, or by clicking here [[http://webchat.freenode.net?channels=%2523buffalomesh.net&uio=d4]].%0a
+host:1408901807=173.245.55.206
+author:1408824995=
+diff:1408824995:1408802337:=1c1%0a%3c We operate on IRC for live chat to discuss the future plans for the network, and all other sorts of things.  We can be found on freenode's IRC network, in #buffalomesh.net using your favorite IRC client, or by clicking here [[http://webchat.freenode.net?channels=%2523buffalomesh.net&uio=d4]].%0a---%0a> We operate on IRC for live chat to discuss the future plans for the network, and all other sorts of things.  We can be found on freenode's IRC network, in #buffalomesh.net using your favorite IRC client, or by clicking here [[https://webchat.freenode.net/]].%0a
+host:1408824995=173.245.55.206
+author:1408802337=
+diff:1408802337:1408800652:=1,3c1%0a%3c We operate on IRC for live chat to discuss the future plans for the network, and all other sorts of things.  We can be found on freenode's IRC network, in #buffalomesh.net using your favorite IRC client, or by clicking here [[https://webchat.freenode.net/]].%0a%3c %0a%3c The channel, at some point in the future, will be logged, in order to facilitate creation of FAQs, to summarize issues for us to cover in our meetings, etc etc.  They will not be publicly searchable, but please act as your comments there will be logged for all perpetuity.%0a\ No newline at end of file%0a---%0a> We operate on IRC for live chat to discuss the future plans for the network, and all other sorts of things.  We can be found on freenode's IRC network, in #buffalomesh.net using your favorite IRC client, or by clicking here [[https://webchat.freenode.net/]].%0a\ No newline at end of file%0a
+host:1408802337=173.245.55.206
+author:1408800652=
+diff:1408800652:1408800652:=1d0%0a%3c We operate on IRC for live chat to discuss the future plans for the network, and all other sorts of things.  We can be found on freenode's IRC network, in #buffalomesh.net using your favorite IRC client, or by clicking here [[https://webchat.freenode.net/]].%0a\ No newline at end of file%0a
+host:1408800652=173.245.55.206

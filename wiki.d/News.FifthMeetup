@@ -1,0 +1,16 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1413580135
+host=38.97.88.20
+name=News.FifthMeetup
+rev=3
+targets=Meetings.Meeting5
+text=We had our fifth meetup at The Foundry.  Things went really well, and we got a whole lot of the details hammered out.  You can see the details for that meeting [[Meetings/Meeting5|here]].
+time=1413580135
+author:1413580135=creichle
+diff:1413580135:1413580135:=0a1,2%0a> {$LastModified}%0a> %0a
+host:1413580135=38.97.88.20
+author:1413580135=creichle

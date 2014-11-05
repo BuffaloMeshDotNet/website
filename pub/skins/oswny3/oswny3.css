@@ -1,0 +1,177 @@
+body {
+font-family:arial, sans-serif; font-size: 11px; color: #000000;
+background:#7A807D url("images/back.gif") repeat;
+}
+a:link, a:visited, a:active {
+text-decoration: underline;
+font-weight:normal;
+color:#5D7B90;
+}
+a:hover {
+color:#333333;
+}
+#pageWrapper {
+margin:auto;
+padding:2px;
+background:#FFFFFF;
+width: 784px;
+border:1px solid #666666;
+}
+#header{
+background:#5D7B90;
+height: 70px;
+border:1px solid #666666;
+clear:both;
+}
+#urightColumn {
+float:right;
+width:590px;
+min-height:490px;
+color: #000000;
+background:#FFFFFF;
+border:1px solid #666666;
+margin:5px;
+}
+#uleftColumn {
+float:left;
+width:139px;
+height:100px;
+padding:10px;
+background:#FFFFFF;
+border:1px solid #666666;
+margin:5px;
+}
+#lrightColumn {
+float:right;
+width:590px;
+height:110px;
+border:1px solid #666666;
+background:#FFFFFF;
+margin:5px;
+}
+#lleftColumn {     /*wikileft*/
+float:left;
+width:139px;
+/*height:259px; */
+padding:10px;
+background:#FFFFFF;
+border:1px solid #666666;
+margin:5px;
+}
+
+/*
+#lleftColumn {
+  width:139px;
+  padding-top:0.5em; padding-right:5px;
+  font-size:smaller;
+  border-right:2px solid #cccccc;
+}
+*/
+
+#lleftColumn h1 {
+  margin:0px; background-color:#eeeeff;
+  font-size:medium; text-align:center;
+}
+#lleftColumn hr { color:#cccccc; }
+#lleftColumn ul { margin-left:0px; padding-left:6px; list-style-type:none; }
+
+h1,h2,h3 {
+padding:5px;
+font-size: 11px;
+font-weight: bold;
+text-transform: lowercase;
+color:#333333;
+}
+#footer {
+width:784px;
+color:#ffffff;
+text-align:right;
+margin:auto;
+}
+#contentWrappper {
+border:1px solid #666666;
+min-height:550px;
+border-top:none;
+}
+form {
+text-align:left;
+padding:2px;
+}
+input {
+border: 1px solid #666666;
+color: #000000;
+font-size: 11px;
+letter-spacing: 1px;
+}
+input.Text {
+width: 150px;
+height: 15px;
+}
+input.submit {
+color: #333333;
+background: #ffffff;
+letter-spacing: 1px;
+border:1px solid #666666;
+font-size: 12px;
+width: 45px;
+height: 20px;
+}
+p{
+margin:5px;
+}
+.pic{
+margin-left:5px;
+margin-right:5px;
+margin-top:10px;
+margin-bottom:10px;
+width:110px;
+height:110px;
+border:1px solid #666666;
+}
+.bar{
+margin:auto;
+background:#ffffff;
+width:754px;
+text-align:right;
+padding:10px;
+}
+#top{
+font: 20px arial, sans-serif; font-weight: normal ; color: #7A807D;
+/*border:1px solid #666666; */
+border-bottom:none;
+padding-left:5px;
+clear: both;
+}
+span.highlight{
+font: 21px arial, sans-serif; font-weight:normal; color: #6e7f98;
+}
+span.slogan{
+font: 11px arial, sans-serif; font-weight:normal; color: #7A807D;
+}
+.bar a:link,.bar a:visited,.bar a:active {
+text-decoration:none;
+font-weight:normal;
+padding:10px;
+color:#000000;
+}
+.bar a:hover {
+color:#333333;
+text-decoration: none;
+}
+#footer a:link,#footer a:visited,#footer a:active {
+text-decoration: none;
+font-weight:normal;
+color:#ffffff;
+}
+#footer a:hover {
+color:#ffffff;
+text-decoration: underline;
+}
+
+/* (:serachform:) Formular umkonfigurieren  */
+.wikisearch{
+width: inherit;
+}
+.wikisearchbox {
+width: 70%;
+}

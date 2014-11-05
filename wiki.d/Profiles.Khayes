@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 OPR/24.0.1558.61
+author=khayes
+charset=UTF-8
+csum=
+ctime=1411163238
+host=173.245.55.187
+name=Profiles.Khayes
+rev=1
+targets=
+text=!!!!Kevin Hayes%0a*Sweeper at %25newwin%25[[http://thefoundrybuffalo.org|The Foundry]], ReUse Evangelist at %25newwin%25[[http://reuseaction.com|ReUse Action]].
+time=1411163238
+author:1411163238=khayes
+diff:1411163238:1411163238:=1,2d0%0a%3c !!!!Kevin Hayes%0a%3c *Sweeper at %25newwin%25[[http://thefoundrybuffalo.org|The Foundry]], ReUse Evangelist at %25newwin%25[[http://reuseaction.com|ReUse Action]].%0a\ No newline at end of file%0a
+host:1411163238=173.245.55.187

@@ -1,0 +1,24 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1410056243
+host=38.97.88.20
+name=Profiles.Creichle
+rev=4
+targets=
+text=I am currently a systems administrator at [[http://synacor.com|Synacor]], and I have a depth of experience from end-user support to systems architecture.  I also have a special fondness for open source, open projects, and privacy on the internet.%0a%0aAs such, I dreamed up this crazy idea of covering the Buffalo area in a completely self-healing mesh network in 2014. Then, I discovered that a number of individuals dreamt up the very same idea (Or, ideas pretty close to it) a few months earlier.%0a%0aAs of now, I stand in as the Network coordinator, dreamer of ideas and RF links, and general cat herder.  On IRC, you'll see me under the name 'ugv', which is part of my ham radio call sign: KC2UGV.%0a%0aIn all seriousness, I've been a IT guy for the better part of 10 years, and prior to that was in the military as a helicopter crew-chief.  And, in IT, my experience has spanned building computers for clients, to being a sysadmin in a 6000 server environment.  My work places have ranged from 4 employees, to 80,000 employees; so I have insight into large and small environments along with the changes that take place as an organization grows.%0a%0aAnd, I can toss in there a smattering of project management for projects from $10K to $1.5 million.  So, I think I've got some skillz that may be useful in in this project here.
+time=1413827918
+author:1413827918=creichle
+diff:1413827918:1413827895:=5c5%0a%3c As of now, I stand in as the Network coordinator, dreamer of ideas and RF links, and general cat herder.  On IRC, you'll see me under the name 'ugv', which is part of my ham radio call sign: KC2UGV.%0a---%0a> As of now, I stand in as the Network coordinator, dreamer of ideas and RF links, and general cat herder.  On IRC, you'll see me under the name 'ugv'.%0a
+host:1413827918=38.97.88.20
+author:1413827895=creichle
+diff:1413827895:1410524715:=5c5%0a%3c As of now, I stand in as the Network coordinator, dreamer of ideas and RF links, and general cat herder.  On IRC, you'll see me under the name 'ugv'.%0a---%0a> As of now, I stand in as the Network coordinator, dreamer of ideas and RF links, and general cat herder.%0a
+host:1413827895=38.97.88.20
+author:1410524715=creichle
+diff:1410524715:1410056243:=7c7%0a%3c In all seriousness, I've been a IT guy for the better part of 10 years, and prior to that was in the military as a helicopter crew-chief.  And, in IT, my experience has spanned building computers for clients, to being a sysadmin in a 6000 server environment.  My work places have ranged from 4 employees, to 80,000 employees; so I have insight into large and small environments along with the changes that take place as an organization grows.%0a---%0a> In all seriousness, I've been a IT guy for the better part of 10 years, and prior to that was in the military as a helicopter crew-chief.  So, I've got some experience leading people.  And, in IT, my experience has spanned building computers for clients, to being a sysadmin in a 6000 server environment.  My work places have ranged from 4 employees, to 80,000 employees; so I have insight into large and small environments along with the changes that take place as an organization grows.%0a
+host:1410524715=108.162.219.185
+author:1410056243=creichle
+diff:1410056243:1410056243:=1,9d0%0a%3c I am currently a systems administrator at [[http://synacor.com|Synacor]], and I have a depth of experience from end-user support to systems architecture.  I also have a special fondness for open source, open projects, and privacy on the internet.%0a%3c %0a%3c As such, I dreamed up this crazy idea of covering the Buffalo area in a completely self-healing mesh network in 2014. Then, I discovered that a number of individuals dreamt up the very same idea (Or, ideas pretty close to it) a few months earlier.%0a%3c %0a%3c As of now, I stand in as the Network coordinator, dreamer of ideas and RF links, and general cat herder.%0a%3c %0a%3c In all seriousness, I've been a IT guy for the better part of 10 years, and prior to that was in the military as a helicopter crew-chief.  So, I've got some experience leading people.  And, in IT, my experience has spanned building computers for clients, to being a sysadmin in a 6000 server environment.  My work places have ranged from 4 employees, to 80,000 employees; so I have insight into large and small environments along with the changes that take place as an organization grows.%0a%3c %0a%3c And, I can toss in there a smattering of project management for projects from $10K to $1.5 million.  So, I think I've got some skillz that may be useful in in this project here.%0a\ No newline at end of file%0a
+host:1410056243=173.245.55.206

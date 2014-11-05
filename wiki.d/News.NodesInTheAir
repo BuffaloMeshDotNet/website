@@ -1,0 +1,27 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1414421215
+host=38.97.88.20
+name=News.NodesInTheAir
+rev=5
+targets=Profiles.Mlehner,Profiles.Khayes,Meetings.Meeting6
+text=As of Sunday evening, we have some exciting news:  We currently have three nodes in the air, passing traffic!  Thanks to the hard work of [[Profiles/mlehner|Matt L]] and [[Profiles/khayes|Kevin H]], two nodes are operational in Northampton linking The Foundry, and the Eaton home.  Hats off to those two for their long, and hard work making this happen.%0a%0aWe also have the first node up in Kaisertown, handling traffic there.  It's accessible on the Buffalomesh.net SSID.  The second node will be going online within the next few weeks.%0a%0aIn addition to this, our website is also accessible on the mesh in Kaisertown, and I'll work with Matt to get it available there as well in Northampton, as we work towards getting internal services available without internet access.%0a%0aWe're definitely making headway on this, and expect more exciting news soon.  Hope to see you at our next [[Meetings/Meeting6|meetup]]!
+time=1414421215
+author:1414421215=creichle
+diff:1414421215:1414421215:=0a1,2%0a> {$LastModified}%0a> %0a
+host:1414421215=38.97.88.20
+author:1414421215=creichle
+diff:1414421215:1414421215:=1,2c1%0a%3c {$LastModified}%0a%3c %0a---%0a> {$LastModified}\\%0a
+host:1414421215=38.97.88.20
+author:1414421215=creichle
+diff:1414421215:1414421215:=1c1%0a%3c {$LastModified}\\%0a---%0a> {{$LastModified}\\%0a
+host:1414421215=38.97.88.20
+author:1414421215=creichle
+diff:1414421215:1414421215:=1d0%0a%3c {{$LastModified}\\%0a
+host:1414421215=38.97.88.20
+author:1414421215=creichle
+diff:1414421215:1414421215:=1,7d0%0a%3c As of Sunday evening, we have some exciting news:  We currently have three nodes in the air, passing traffic!  Thanks to the hard work of [[Profiles/mlehner|Matt L]] and [[Profiles/khayes|Kevin H]], two nodes are operational in Northampton linking The Foundry, and the Eaton home.  Hats off to those two for their long, and hard work making this happen.%0a%3c %0a%3c We also have the first node up in Kaisertown, handling traffic there.  It's accessible on the Buffalomesh.net SSID.  The second node will be going online within the next few weeks.%0a%3c %0a%3c In addition to this, our website is also accessible on the mesh in Kaisertown, and I'll work with Matt to get it available there as well in Northampton, as we work towards getting internal services available without internet access.%0a%3c %0a%3c We're definitely making headway on this, and expect more exciting news soon.  Hope to see you at our next [[Meetings/Meeting6|meetup]]!%0a\ No newline at end of file%0a
+host:1414421215=38.97.88.20

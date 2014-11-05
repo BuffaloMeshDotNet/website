@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1414762161
+host=38.97.88.20
+name=Infrastructure.WebServices
+rev=1
+targets=
+text=!Buffalomesh.net domains%0a%0aHosted with GoDaddy, under my personal account (coreyreichle).  I'd be open to opening a new account for BMN, and transferring ownership at any time.%0a%0aCurrent domains:%0a* Buffalomesh.net%0a* Buffalomesh.org%0a* BUffalomesh.com%0a* Buffalomesh.info%0a%0a!BuffaloMesh.* DNS%0aAgain, these are under my personal CloudFlare account (corey.reichle@gmail).  I'd again, be willing to create a new account, and transfer domains to there.%0a%0a!Buffalomesh.net Web/IRC Logger/misc server%0aThis is a server operating out of my home.  It's hosting my personal site as well, so if we want to move this to another place, we'll need to just transfer the directories out to the new site.  Backups are made nightly in /var/backups of the site, but no off-site backups are done at this time.  Server dies?  We lose the site.%0a%0a!IRC Channel%0aThe IRC channel has myself as the founder, with myself and Matt as opers.  I can transfer foundership to Matt as needed.%0a%0a!Google Group%0aIt's only owner is myself.  I can add owners at any time.
+time=1414762161
+author:1414762161=creichle
+diff:1414762161:1414762161:=1,21d0%0a%3c !Buffalomesh.net domains%0a%3c %0a%3c Hosted with GoDaddy, under my personal account (coreyreichle).  I'd be open to opening a new account for BMN, and transferring ownership at any time.%0a%3c %0a%3c Current domains:%0a%3c * Buffalomesh.net%0a%3c * Buffalomesh.org%0a%3c * BUffalomesh.com%0a%3c * Buffalomesh.info%0a%3c %0a%3c !BuffaloMesh.* DNS%0a%3c Again, these are under my personal CloudFlare account (corey.reichle@gmail).  I'd again, be willing to create a new account, and transfer domains to there.%0a%3c %0a%3c !Buffalomesh.net Web/IRC Logger/misc server%0a%3c This is a server operating out of my home.  It's hosting my personal site as well, so if we want to move this to another place, we'll need to just transfer the directories out to the new site.  Backups are made nightly in /var/backups of the site, but no off-site backups are done at this time.  Server dies?  We lose the site.%0a%3c %0a%3c !IRC Channel%0a%3c The IRC channel has myself as the founder, with myself and Matt as opers.  I can transfer foundership to Matt as needed.%0a%3c %0a%3c !Google Group%0a%3c It's only owner is myself.  I can add owners at any time.%0a\ No newline at end of file%0a
+host:1414762161=38.97.88.20

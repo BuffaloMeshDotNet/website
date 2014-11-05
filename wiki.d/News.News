@@ -1,0 +1,21 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1414421762
+host=38.97.88.20
+name=News.News
+rev=3
+targets=
+text=(:pagelist group=News order=-ctime fmt=#include -Main -RecentChanges:)
+time=1414421917
+author:1414421917=creichle
+diff:1414421917:1414421811:=
+host:1414421917=38.97.88.20
+author:1414421811=creichle
+diff:1414421811:1414421762:=1c1%0a%3c (:pagelist group=News order=-ctime fmt=#include -Main -RecentChanges:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=News order=-ctime fmt=#teasers -Main -RecentChanges:)%0a\ No newline at end of file%0a
+host:1414421811=38.97.88.20
+author:1414421762=creichle
+diff:1414421762:1414421762:=1d0%0a%3c (:pagelist group=News order=-ctime fmt=#teasers -Main -RecentChanges:)%0a\ No newline at end of file%0a
+host:1414421762=38.97.88.20

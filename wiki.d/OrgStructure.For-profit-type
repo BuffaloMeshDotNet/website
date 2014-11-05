@@ -1,0 +1,33 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1410480757
+host=108.162.219.185
+name=OrgStructure.For-profit-type
+rev=7
+targets=
+text=(:toc-float:)%0a%25rframe%25%25center%25%25fgcolor=red%25%25bgcolor=#ffeeee%25[++This is a draft document, and not a final standard.++]%0a%0aBrief description of the various flavors of for-profit organization.%0a%0a!C Type%0a* Incorporation costs $135-195 for basic filing%0a* Taxes due, at no share value $10/year%0a* Profit must be forefront for shareholders%0a* Officers can be sued by shareholders for not turning a profit%0a* Double taxed%0a%0a!B Type%0a* Same as above%0a* Except:%0a** Societal good is placed on par with profit motive%0a** Profit can actually be placed second to societal good%0a%0a!S Type%0a* Pass-through income to share holders (No double tax)%0a* Less risk of IRS audit%0a* Easier accounting (Only need accountant annually)%0a* Restrictions on ownership (Citizenship mandatory)%0a%0a%0aAll three are pretty easy to set up without legal assistance.  However, legal assistance is recommended by most anyone you talk to.%0a%0a!LLC%0a* Much less formal%0a* Still some limited liability, however, NYS has pierced the veil%0a* Pass-through income%0a* ~$1100-1500 to startup%0a* MUST have a lawyer for operating document%0a%0a!References%0a* http://www.newyorksmallbusinesslaw.com/new_york_small_business_l/2006/08/how_to_form_a_n.html%0a* http://zamzowlaw.com/articles/michigan-llc-formation/%0a* http://www.inc.com/eileen-p-gunn/the-high-costs-of-filing-as-an-llc-in-new-york.html%0a* http://www.bizfilings.com/learn/compare-business-types.aspx
+time=1411061091
+author:1411061091=creichle
+diff:1411061091:1411061045:=0a1%0a> Brief description of the various flavors of for-profit organization.%0a2,4d2%0a%3c %25rframe%25%25center%25%25fgcolor=red%25%25bgcolor=#ffeeee%25[++This is a draft document, and not a final standard.++]%0a%3c %0a%3c Brief description of the various flavors of for-profit organization.%0a
+host:1411061091=108.162.219.185
+author:1411061045=creichle
+diff:1411061045:1410481739:=1,3d0%0a%3c Brief description of the various flavors of for-profit organization.%0a%3c (:toc-float:)%0a%3c %0a
+host:1411061045=108.162.219.185
+author:1410481739=creichle
+diff:1410481739:1410481697:=32,34c32%0a%3c * http://zamzowlaw.com/articles/michigan-llc-formation/%0a%3c * http://www.inc.com/eileen-p-gunn/the-high-costs-of-filing-as-an-llc-in-new-york.html%0a%3c * http://www.bizfilings.com/learn/compare-business-types.aspx%0a\ No newline at end of file%0a---%0a> * http://zamzowlaw.com/articles/michigan-llc-formation/%0a\ No newline at end of file%0a
+host:1410481739=173.245.55.206
+author:1410481697=creichle
+diff:1410481697:1410481670:=21c21%0a%3c All three are pretty easy to set up without legal assistance.  However, legal assistance is recommended by most anyone you talk to.%0a---%0a> Both are pretty easy to set up without legal assistance.  However, legal assistance is recommended by most anyone you talk to.%0a
+host:1410481697=173.245.55.206
+author:1410481670=creichle
+diff:1410481670:1410481628:=28,29c28%0a%3c * MUST have a lawyer for operating document%0a%3c %0a---%0a> %0a32c31%0a%3c * http://zamzowlaw.com/articles/michigan-llc-formation/%0a\ No newline at end of file%0a---%0a> http://zamzowlaw.com/articles/michigan-llc-formation/%0a\ No newline at end of file%0a
+host:1410481670=173.245.55.206
+author:1410481628=creichle
+diff:1410481628:1410480757:=6,7c6%0a%3c * Double taxed%0a%3c %0a---%0a> %0a14,20d12%0a%3c !S Type%0a%3c * Pass-through income to share holders (No double tax)%0a%3c * Less risk of IRS audit%0a%3c * Easier accounting (Only need accountant annually)%0a%3c * Restrictions on ownership (Citizenship mandatory)%0a%3c %0a%3c %0a23,28d14%0a%3c !LLC%0a%3c * Much less formal%0a%3c * Still some limited liability, however, NYS has pierced the veil%0a%3c * Pass-through income%0a%3c * ~$1100-1500 to startup%0a%3c %0a30,31c16%0a%3c * http://www.newyorksmallbusinesslaw.com/new_york_small_business_l/2006/08/how_to_form_a_n.html%0a%3c http://zamzowlaw.com/articles/michigan-llc-formation/%0a\ No newline at end of file%0a---%0a> * http://www.newyorksmallbusinesslaw.com/new_york_small_business_l/2006/08/how_to_form_a_n.html%0a\ No newline at end of file%0a
+host:1410481628=173.245.55.206
+author:1410480757=creichle
+diff:1410480757:1410480757:=1,16d0%0a%3c !C Type%0a%3c * Incorporation costs $135-195 for basic filing%0a%3c * Taxes due, at no share value $10/year%0a%3c * Profit must be forefront for shareholders%0a%3c * Officers can be sued by shareholders for not turning a profit%0a%3c %0a%3c !B Type%0a%3c * Same as above%0a%3c * Except:%0a%3c ** Societal good is placed on par with profit motive%0a%3c ** Profit can actually be placed second to societal good%0a%3c %0a%3c Both are pretty easy to set up without legal assistance.  However, legal assistance is recommended by most anyone you talk to.%0a%3c %0a%3c !References%0a%3c * http://www.newyorksmallbusinesslaw.com/new_york_small_business_l/2006/08/how_to_form_a_n.html%0a\ No newline at end of file%0a
+host:1410480757=173.245.55.206

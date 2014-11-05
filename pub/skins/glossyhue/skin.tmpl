@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC
+ "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>$WikiTitle {$Group}/{$Titlespaced}</title>
+	<link rel='stylesheet' href='$SkinDirUrl/style.css' type='text/css' />
+	<link rel='stylesheet' href='$SkinDirUrl/color-$SkinColor/color.css' type='text/css' />
+	<!--HTMLHeader-->
+</head>
+
+<body>
+	<div id="page">
+		<div id="header">
+			<div class="pageactions">
+				<!--PageActionFmt-->
+				<!--wiki:{$Group}.PageActions {$SiteGroup}.PageActions-->
+				<!--/PageActionFmt-->
+			</div>
+
+			<!--PageHeaderFmt-->
+			<div id="siteheader">
+				<!--wiki:{$Group}.SiteHeader {$SiteGroup}.SiteHeader -->
+			</div>
+			<!--/PageHeaderFmt-->
+
+			<!--PageTabsFmt-->
+			<div id="nav">
+				<!--wiki:{$Group}.SiteNav {$SiteGroup}.SiteNav -->
+			</div>
+			<!--/PageTabsFmt-->
+		</div>
+
+		<div id="content">
+			<div id="pagelead">
+				<div class="pageheader">
+					<!--PageTitleGroupFmt-->
+					<a href='{$ScriptUrl}/{$Group}' class='pagegroup'>{$Group}</a>
+					<!--/PageTitleGroupFmt-->
+					<!--PageTitleFmt-->
+					<h1><a href='{$PageUrl}'>{$Titlespaced}</a></h1>
+					<!--/PageTitleFmt-->
+				</div>
+
+			</div>
+
+			<!--PageText-->
+		</div>
+
+		<div id="sidebar">
+			<!--PageSearchFmt-->
+			<form id="searchform" action='$ScriptUrl' method="get">
+			<fieldset>
+				<input class="hidden" type='hidden' name='n' value='{$FullName}' />
+				<input class="hidden" type='hidden' name='action' value='search' />
+				<input id="searchfield" type='text' name='q' value='' />
+				<input id="searchbutton" type='submit' name="searchbutton" value='$[Search]' />
+			</fieldset>
+			</form>
+			<!--/PageSearchFmt-->
+
+			<!--PageRightFmt-->
+			<!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar -->
+			<!--/PageRightFmt-->
+		</div>
+
+		<div id="footer">
+			<!--PageFooterFmt-->
+				<div class="footer-section">
+					<!--wiki:{$Group}.SiteFooter {$SiteGroup}.SiteFooter -->
+				</div>
+				<div class="footer-section">
+					<!--wiki:{$Group}.SiteFooter2 {$SiteGroup}.SiteFooter2 -->
+				</div>
+				<div class="footer-about">
+					<!--wiki:{$Group}.SiteAbout {$SiteGroup}.SiteAbout -->
+				</div>
+			<!--/PageFooterFmt-->
+			<hr class="clear" />
+		</div>
+
+	</div>
+
+	<div id="credits">
+		<div class="alignleft">
+
+		</div>
+		<div class="alignright">
+			$[Powered by] <!--function:dg_PoweredBy-->
+		</div>
+	</div>
+<!--HTMLFooter-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6265759-6");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

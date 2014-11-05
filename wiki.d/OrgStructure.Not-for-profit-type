@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 OPR/24.0.1558.61
+author=khayes
+charset=UTF-8
+csum=
+ctime=1411163783
+host=173.245.55.187
+name=OrgStructure.Not-for-profit-type
+rev=1
+targets=
+text=(:toc-float:)%0a%25rframe%25%25center%25%25fgcolor=red%25%25bgcolor=#ffeeee%25[++This is a draft document, and not a final standard.++]%0a%0aBrief description of the various flavors of not-for-profit organization.%0a
+time=1411163783
+author:1411163783=khayes
+diff:1411163783:1411163783:=1,4d0%0a%3c (:toc-float:)%0a%3c %25rframe%25%25center%25%25fgcolor=red%25%25bgcolor=#ffeeee%25[++This is a draft document, and not a final standard.++]%0a%3c %0a%3c Brief description of the various flavors of not-for-profit organization.%0a
+host:1411163783=173.245.55.187

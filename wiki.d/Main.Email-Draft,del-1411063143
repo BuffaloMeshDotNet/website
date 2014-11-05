@@ -1,0 +1,27 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1411061431
+host=108.162.219.185
+name=Main.Email-Draft
+rev=5
+targets=
+text=Interested in getting involved?  Have questions?%0a%0a||cellpadding="5" width=30%25 left-align%0a||General Questions:||[[mailto:contact@buffalomesh.net]]||%0a||Hardware/Software:||[[mailto:hardware@buffalomesh.net]]||%0a||Network Admin:||[[mailto:network@buffalomesh.net]]||%0a
+time=1411063134
+author:1411063134=creichle
+diff:1411063134:1411062944:=3,6c3,7%0a%3c ||cellpadding="5" width=30%25 left-align%0a%3c ||General Questions:||[[mailto:contact@buffalomesh.net]]||%0a%3c ||Hardware/Software:||[[mailto:hardware@buffalomesh.net]]||%0a%3c ||Network Admin:||[[mailto:network@buffalomesh.net]]||%0a---%0a> General Questions: [[mailto:contact@buffalomesh.net]]%0a> %0a> Hardware/Software: [[mailto:hardware@buffalomesh.net]]%0a> %0a> Network Admin: [[mailto:network@buffalomesh.net]]%0a
+host:1411063134=108.162.219.185
+author:1411062944=creichle
+diff:1411062944:1411062904:=6,7d5%0a%3c %0a%3c Network Admin: [[mailto:network@buffalomesh.net]]%0a
+host:1411062944=108.162.219.185
+author:1411062904=creichle
+diff:1411062904:1411061459:=3,5c3%0a%3c General Questions: [[mailto:contact@buffalomesh.net]]%0a%3c %0a%3c Hardware/Software: [[mailto:hardware@buffalomesh.net]]%0a---%0a> General Questions: [[mailto:contact@buffalomesh.net]]%0a\ No newline at end of file%0a
+host:1411062904=108.162.219.185
+author:1411061459=creichle
+diff:1411061459:1411061431:=3c3%0a%3c General Questions: [[mailto:contact@buffalomesh.net]]%0a\ No newline at end of file%0a---%0a> General Questions: contact@buffalomesh.net%0a\ No newline at end of file%0a
+host:1411061459=108.162.219.185
+author:1411061431=creichle
+diff:1411061431:1411061431:=1,3d0%0a%3c Interested in getting involved?  Have questions?%0a%3c %0a%3c General Questions: contact@buffalomesh.net%0a\ No newline at end of file%0a
+host:1411061431=108.162.219.185

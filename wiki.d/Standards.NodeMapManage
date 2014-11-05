@@ -1,0 +1,18 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1409972021
+host=173.245.55.206
+name=Standards.NodeMapManage
+rev=2
+targets=
+text=(:toc-float:)%0a%25rframe%25%25center%25%25fgcolor=red%25%25bgcolor=#ffeeee%25[++This is a draft document, and not a final standard.++]%0a%0aThis document covers the requirements for a node mapping and management software suite, which allows public mapping of software, along with private information intended for the system administrators of the owned nodes.%0a%0a!Scope%0aProvide as near real-time as possible map of the current nodes, and report that status to the network coordinator in a graphical fashion.%0a%0a!Data format%0aTBD, but today, OLSR offers a JSON interface to the current status of the node (Including neighbors, geo coords (If available), and link quality).%0a%0a!Requirements%0a* Need to be able to display nodes and links on a slippy map to non-admins of the system (aka, public view)%0a* Need to be able to display node location, links, and link quality to admins, in order to map preferred routes and compare against actual routes to enable trouble shooting of the network%0a%0a!System specs%0a* Agent (If needed) should be able to run in a low-resource environment (ie, embedded device)%0a* Require only one server per major geographic environment, and capable of running on low end system at the cost of real-time data (ie, better system --> more real time data)%0a%0a!Stakeholders%0a* Corey R (Current network coordindator)%0a* Northampton network owner (Matt L)
+time=1409972865
+author:1409972865=creichle
+diff:1409972865:1409972021:=3d2%0a%3c %0a
+host:1409972865=173.245.55.206
+author:1409972021=creichle
+diff:1409972021:1409972021:=1,21d0%0a%3c (:toc-float:)%0a%3c %25rframe%25%25center%25%25fgcolor=red%25%25bgcolor=#ffeeee%25[++This is a draft document, and not a final standard.++]%0a%3c This document covers the requirements for a node mapping and management software suite, which allows public mapping of software, along with private information intended for the system administrators of the owned nodes.%0a%3c %0a%3c !Scope%0a%3c Provide as near real-time as possible map of the current nodes, and report that status to the network coordinator in a graphical fashion.%0a%3c %0a%3c !Data format%0a%3c TBD, but today, OLSR offers a JSON interface to the current status of the node (Including neighbors, geo coords (If available), and link quality).%0a%3c %0a%3c !Requirements%0a%3c * Need to be able to display nodes and links on a slippy map to non-admins of the system (aka, public view)%0a%3c * Need to be able to display node location, links, and link quality to admins, in order to map preferred routes and compare against actual routes to enable trouble shooting of the network%0a%3c %0a%3c !System specs%0a%3c * Agent (If needed) should be able to run in a low-resource environment (ie, embedded device)%0a%3c * Require only one server per major geographic environment, and capable of running on low end system at the cost of real-time data (ie, better system --> more real time data)%0a%3c %0a%3c !Stakeholders%0a%3c * Corey R (Current network coordindator)%0a%3c * Northampton network owner (Matt L)%0a\ No newline at end of file%0a
+host:1409972021=173.245.55.206

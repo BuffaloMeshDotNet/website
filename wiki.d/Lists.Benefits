@@ -1,0 +1,24 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1411173874
+host=38.97.88.20
+name=Lists.Benefits
+rev=4
+targets=Profiles.Creichle
+text=(:toc-float:)%0a!For Individuals%0a* Access to an information network, regardless of resources%0a* Community controlled, and therefore community driven%0a* Artistic, political, and organizational freedom, not controlled by a monopoly%0a%0a!For Business%0a* Access to a localized media, at super-low cost%0a* Presumably, customized internal applications can be developed targeting specific needs for a community%0a* Opens the doors for low-cost internet service providers to use our transport layer to provide internet connectivity%0a* Engraining the business into the fabric of the community creates stronger, more viable community-based entrepreneurship.%0a%0a!For Government%0a* Government has super-low cost to provided additional services to the community%0a** ie:%0a*** 411 reports%0a*** Tax payment portals%0a*** Instant local polling%0a%0a!Comments%0a* I think before a good list of benefits can be generated, a specific set of goals for service we're providing needs to be lain out.  If we do a mesh net, if would have different benefits for all parties involved, contrasted with just trying to provide a high-speed internet connection to everyone.  -- [[Profiles/creichle|creichle]]
+time=1413987792
+author:1413987792=creichle
+diff:1413987792:1411842050:=6d5%0a%3c %0a8,12d6%0a%3c * Access to a localized media, at super-low cost%0a%3c * Presumably, customized internal applications can be developed targeting specific needs for a community%0a%3c * Opens the doors for low-cost internet service providers to use our transport layer to provide internet connectivity%0a%3c * Engraining the business into the fabric of the community creates stronger, more viable community-based entrepreneurship.%0a%3c %0a14,18d7%0a%3c * Government has super-low cost to provided additional services to the community%0a%3c ** ie:%0a%3c *** 411 reports%0a%3c *** Tax payment portals%0a%3c *** Instant local polling%0a
+host:1413987792=38.97.88.20
+author:1411842050=creichle
+diff:1411842050:1411231906:=3,5d2%0a%3c * Access to an information network, regardless of resources%0a%3c * Community controlled, and therefore community driven%0a%3c * Artistic, political, and organizational freedom, not controlled by a monopoly%0a
+host:1411842050=108.183.122.28
+author:1411231906=creichle
+diff:1411231906:1411173874:=4,7c4%0a%3c !For Government%0a%3c %0a%3c !Comments%0a%3c * I think before a good list of benefits can be generated, a specific set of goals for service we're providing needs to be lain out.  If we do a mesh net, if would have different benefits for all parties involved, contrasted with just trying to provide a high-speed internet connection to everyone.  -- [[Profiles/creichle|creichle]]%0a\ No newline at end of file%0a---%0a> !For Government%0a\ No newline at end of file%0a
+host:1411231906=173.245.55.206
+author:1411173874=khayes
+diff:1411173874:1411173874:=1,4d0%0a%3c (:toc-float:)%0a%3c !For Individuals%0a%3c !For Business%0a%3c !For Government%0a\ No newline at end of file%0a
+host:1411173874=173.245.55.187

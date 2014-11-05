@@ -1,0 +1,18 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1411179311
+host=173.245.55.206
+name=Site.RightSideBar
+rev=2
+targets=
+text=
+time=1411179338
+author:1411179338=creichle
+diff:1411179338:1411179311:=0a1%0a> [--smaller--]%0a\ No newline at end of file%0a
+host:1411179338=173.245.55.206
+author:1411179311=creichle
+diff:1411179311:1411179311:=1d0%0a%3c [--smaller--]%0a\ No newline at end of file%0a
+host:1411179311=173.245.55.206

@@ -1,0 +1,18 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1414003555
+host=38.97.88.20
+name=News.NextMeetup
+rev=5
+targets=Meetings.Meeting6
+text=%0a%0aOur next meetup will be at d!g Buffalo, and this is exciting news!  We hope to dovetail into the FIKA Buffalo meetups they have there on the first Friday of every month.  You can RSVP for that at [[http://nextplex.com/buffalo-ny/calendar/events/20888-buffalomesh-net-meetup-5|NextPlex]].%0a%0aThings up on the agenda are planning more hardware in the air, along with some ideas for going for on some of the sub-plans for the project as a whole.  Complete details are on [[Meetings/Meeting6|the meetup's agenda]].  Feel free to add whatever you'd like to have discussed.
+time=1414003555
+author:1414003555=creichle
+diff:1414003555:1414003555:=1c1%0a%3c %0a---%0a> {$LastModified}%0a
+host:1414003555=38.97.88.20
+author:1414003555=creichle
+diff:1414003555:1414003555:=
+host:1414003555=38.97.88.20

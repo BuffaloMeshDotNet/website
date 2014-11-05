@@ -1,0 +1,141 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1414418629
+host=38.97.88.20
+name=Site.LocalTemplates
+rev=43
+targets=Site.FullName
+text=!!fmt=teasers%0a%0a[[#teasers]]%0a----- %0a%25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a%0a(:include {=$FullName} para=2:)%0a%0a(:if ! equal {>$Group}:)%0a----- %0a(:if:) %0a[[#teasersend]]%0a%0a!!fmt=#include%0a%0aConcatenate the text of pages in the list. (Note, this can be an expensive operation!)%0a[[#include]]%0a%25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$Name}]]'''%0a-----%0a(:include {=$FullName} self=0:)%0a%0a-----%0a[[#includeend]]
+time=1414435906
+author:1414435906=creichle
+diff:1414435906:1414435884:=19c19%0a%3c -----%0a---%0a> %0a
+host:1414435906=38.97.88.20
+author:1414435884=creichle
+diff:1414435884:1414435860:=18,19c18%0a%3c %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$Name}]]'''%0a%3c %0a---%0a> %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$Name}]]'''\\%0a
+host:1414435884=38.97.88.20
+author:1414435860=creichle
+diff:1414435860:1414435831:=18c18%0a%3c %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$Name}]]'''\\%0a---%0a> %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$Name}]]'''%0a
+host:1414435860=38.97.88.20
+author:1414435831=creichle
+diff:1414435831:1414435790:=18c18%0a%3c %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$Name}]]'''%0a---%0a> %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$Page}]]'''%0a
+host:1414435831=38.97.88.20
+author:1414435790=creichle
+diff:1414435790:1414435771:=18c18%0a%3c %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$Page}]]'''%0a---%0a> %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$PageName}]]'''%0a
+host:1414435790=38.97.88.20
+author:1414435771=creichle
+diff:1414435771:1414435733:=18c18%0a%3c %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$PageName}]]'''%0a---%0a> %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}]]'''%0a
+host:1414435771=38.97.88.20
+author:1414435733=creichle
+diff:1414435733:1414435650:=18d17%0a%3c %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}]]'''%0a
+host:1414435733=38.97.88.20
+author:1414435650=creichle
+diff:1414435650:1414435612:=5c5%0a%3c %25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a---%0a> %25lframe%25 {$LastModified} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414435650=38.97.88.20
+author:1414435612=creichle
+diff:1414435612:1414434762:=5c5%0a%3c %25lframe%25 {$LastModified} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a---%0a> %25lframe%25 {$PageCreationDate} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414435612=38.97.88.20
+author:1414434762=creichle
+diff:1414434762:1414434692:=5c5%0a%3c %25lframe%25 {$PageCreationDate} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a---%0a> %25lframe%25 {$Created} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414434762=38.97.88.20
+author:1414434692=creichle
+diff:1414434692:1414434389:=5c5%0a%3c %25lframe%25 {$Created} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a---%0a> %25lframe%25 {$ctime} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414434692=38.97.88.20
+author:1414434389=creichle
+diff:1414434389:1414433641:=5c5%0a%3c %25lframe%25 {$ctime} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a---%0a> %25lframe%25 {$LastModified} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414434389=38.97.88.20
+author:1414433641=creichle
+diff:1414433641:1414433534:=
+host:1414433641=38.97.88.20
+author:1414433534=creichle
+diff:1414433534:1414433391:=6d5%0a%3c %0a
+host:1414433534=38.97.88.20
+author:1414433391=creichle
+diff:1414433391:1414433347:=4,5c4%0a%3c ----- %0a%3c %25lframe%25 {$LastModified} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a---%0a> ----- %25rframe%25||'''[[{=$FullName}|Read More]]'''||{$LastModified}||%0a
+host:1414433391=38.97.88.20
+author:1414433347=creichle
+diff:1414433347:1414433318:=4c4%0a%3c ----- %25rframe%25||'''[[{=$FullName}|Read More]]'''||{$LastModified}||%0a---%0a> ----- %25rframe%25||'''[[{=$FullName}|Read More]]'''||{=$LastModified}||%0a
+host:1414433347=38.97.88.20
+author:1414433318=creichle
+diff:1414433318:1414423406:=4c4%0a%3c ----- %25rframe%25||'''[[{=$FullName}|Read More]]'''||{=$LastModified}||%0a---%0a> ----- %25rframe%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414433318=38.97.88.20
+author:1414423406=creichle
+diff:1414423406:1414423379:=4c4%0a%3c ----- %25rframe%25'''[[{=$FullName}|Read More]]'''%0a---%0a> ----- %0a8c8%0a%3c ----- %0a---%0a> -----%25rframe%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414423406=38.97.88.20
+author:1414423379=creichle
+diff:1414423379:1414422118:=4c4%0a%3c ----- %0a---%0a> ----- %25rframe%25'''[[{=$FullName}|Read More]]'''%0a8c8%0a%3c -----%25rframe%25'''[[{=$FullName}|Read More]]'''%0a---%0a> -----%0a
+host:1414423379=38.97.88.20
+author:1414422118=creichle
+diff:1414422118:1414422103:=15a16%0a> {{=$Fullname\$LastModified}\\%0a
+host:1414422118=38.97.88.20
+author:1414422103=creichle
+diff:1414422103:1414422068:=16c16%0a%3c {{=$Fullname\$LastModified}\\%0a---%0a> {$LastModified}\\%0a
+host:1414422103=38.97.88.20
+author:1414422068=creichle
+diff:1414422068:1414421946:=16c16%0a%3c {$LastModified}\\%0a---%0a> {=$Ctime}\\%0a
+host:1414422068=38.97.88.20
+author:1414421946=creichle
+diff:1414421946:1414421912:=16d15%0a%3c {=$Ctime}\\%0a18d16%0a%3c %0a
+host:1414421946=38.97.88.20
+author:1414421912=creichle
+diff:1414421912:1414421613:=11,18d10%0a%3c %0a%3c !!fmt=#include%0a%3c %0a%3c Concatenate the text of pages in the list. (Note, this can be an expensive operation!)%0a%3c [[#include]]%0a%3c (:include {=$FullName} self=0:)%0a%3c -----%0a%3c [[#includeend]]%0a\ No newline at end of file%0a
+host:1414421912=38.97.88.20
+author:1414421613=creichle
+diff:1414421613:1414421564:=5c5%0a%3c (:include {=$FullName} para=2:)%0a---%0a> (:include {=$FullName} lines=10:)%0a
+host:1414421613=38.97.88.20
+author:1414421564=creichle
+diff:1414421564:1414421518:=4c4,5%0a%3c ----- %25rframe%25'''[[{=$FullName}|Read More]]'''%0a---%0a> %0a> %0a6c7%0a%3c %0a---%0a> %25rframe%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414421564=38.97.88.20
+author:1414421518=creichle
+diff:1414421518:1414421468:=7c7%0a%3c %25rframe%25'''[[{=$FullName}|Read More]]'''%0a---%0a> %25rfloat%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414421518=38.97.88.20
+author:1414421468=creichle
+diff:1414421468:1414421445:=6c6%0a%3c (:include {=$FullName} lines=10:)%0a---%0a> (:include {=$FullName} para=1:)%0a
+host:1414421468=38.97.88.20
+author:1414421445=creichle
+diff:1414421445:1414421416:=9c9,10%0a%3c -----%0a---%0a> %25lfoat%25%0a> ----%0a
+host:1414421445=38.97.88.20
+author:1414421416=creichle
+diff:1414421416:1414421398:=6a7%0a> %0a
+host:1414421416=38.97.88.20
+author:1414421398=creichle
+diff:1414421398:1414421387:=10,11c10%0a%3c %25lfoat%25%0a%3c ----%0a---%0a> %25lfoat%25 ----%0a
+host:1414421398=38.97.88.20
+author:1414421387=creichle
+diff:1414421387:1414421368:=10c10%0a%3c %25lfoat%25 ----%0a---%0a> %25lfoat%25-----%0a
+host:1414421387=38.97.88.20
+author:1414421368=creichle
+diff:1414421368:1414421314:=10c10%0a%3c %25lfoat%25-----%0a---%0a> -----%0a12c12%0a%3c [[#teasersend]]%0a---%0a> [[#teasersend]]%0a\ No newline at end of file%0a
+host:1414421368=38.97.88.20
+author:1414421314=creichle
+diff:1414421314:1414421291:=8c8%0a%3c %25rfloat%25'''[[{=$FullName}|Read More]]'''%0a---%0a> %25Right%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414421314=38.97.88.20
+author:1414421291=creichle
+diff:1414421291:1414420502:=4,5c4,5%0a%3c %0a%3c %0a---%0a> '''[[{=$FullName}|{=$Title}]]'''%0a> %0a8d7%0a%3c %25Right%25'''[[{=$FullName}|Read More]]'''%0a
+host:1414421291=38.97.88.20
+author:1414420502=creichle
+diff:1414420502:1414420444:=4c4%0a%3c '''[[{=$FullName}|{=$Title}]]'''%0a---%0a> '''[[{=$FullName}|{=$Page}]]'''%0a
+host:1414420502=38.97.88.20
+author:1414420444=creichle
+diff:1414420444:1414420421:=4c4%0a%3c '''[[{=$FullName}|{=$Page}]]'''%0a---%0a> '''[[{=$FullName}|{=$PageName}]]'''%0a
+host:1414420444=38.97.88.20
+author:1414420421=creichle
+diff:1414420421:1414419047:=4c4%0a%3c '''[[{=$FullName}|{=$PageName}]]'''%0a---%0a> '''[[{=$FullName}]]'''%0a
+host:1414420421=38.97.88.20
+author:1414419047=creichle
+diff:1414419047:1414418975:=6c6%0a%3c (:include {=$FullName} para=1:)%0a---%0a> (:include {=$FullName} lines=15:)%0a
+host:1414419047=38.97.88.20
+author:1414418975=creichle
+diff:1414418975:1414418901:=4c4%0a%3c '''[[{=$FullName}]]'''%0a---%0a> '''[[{=$FullName}]]''' - [[Edit -> {=$FullName}?action=edit]]%0a
+host:1414418975=38.97.88.20
+author:1414418901=creichle
+diff:1414418901:1414418677:=1,2d0%0a%3c !!fmt=teasers%0a%3c %0a4,6c2,4%0a%3c '''[[{=$FullName}]]''' - [[Edit -> {=$FullName}?action=edit]]%0a%3c %0a%3c (:include {=$FullName} lines=15:)%0a---%0a> || '''[[{=$FullName}]]''' - [[Edit -> {=$FullName}?action=edit]]||%0a> %0a> (:include {=$FullName} lines=4:)%0a
+host:1414418901=38.97.88.20
+author:1414418677=creichle
+diff:1414418677:1414418629:=1,3c1,10%0a%3c [[#teasers]]%0a%3c || '''[[{=$FullName}]]''' - [[Edit -> {=$FullName}?action=edit]]||%0a%3c %0a---%0a> fmt=#include-blog%0a> %0a> [[#includeTitle]]%0a> (:if auth edit:)%0a> %25rfloat%25[[{=$FullName}?action=edit|[-edit-]]](:if:)%0a> !![[#{=$FullName}]][[{=$FullName}|{=$Title}]]%0a> (:include {=$FullName}:)%0a> ----%0a> (:if equal {>$Group}:)%0a> (:title {$Title}:)(:if:)%0a5,9c12%0a%3c %0a%3c (:if ! equal {>$Group}:)%0a%3c -----%0a%3c (:if:) %0a%3c [[#teasersend]]%0a\ No newline at end of file%0a---%0a> [[#includeTitleend]]%0a\ No newline at end of file%0a
+host:1414418677=38.97.88.20
+author:1414418629=creichle
+diff:1414418629:1414418629:=1,12d0%0a%3c fmt=#include-blog%0a%3c %0a%3c [[#includeTitle]]%0a%3c (:if auth edit:)%0a%3c %25rfloat%25[[{=$FullName}?action=edit|[-edit-]]](:if:)%0a%3c !![[#{=$FullName}]][[{=$FullName}|{=$Title}]]%0a%3c (:include {=$FullName}:)%0a%3c ----%0a%3c (:if equal {>$Group}:)%0a%3c (:title {$Title}:)(:if:)%0a%3c (:include {=$FullName} lines=4:)%0a%3c [[#includeTitleend]]%0a\ No newline at end of file%0a
+host:1414418629=38.97.88.20

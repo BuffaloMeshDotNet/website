@@ -1,0 +1,24 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1411173839
+host=173.245.55.206
+name=Lists.Obstacles
+rev=4
+targets=Profiles.Creichle
+text=This is a parking lot for any obstacles we encounter, which are suggested to us or that are well-known already. This list is a starting point for a process of fact-finding, cogitation and further research before we decide whether an obstacle is surmountable or not.%0a(:toc-float:)%0a!Technical - Hardware%0a* Hardware standardization -- [[Profiles/creichle|creichle]]%0a!Technical - Software%0a* Proprietary tends to be more cutting edge, however costlier -- [[Profiles/creichle|creichle]]%0a!Technical - Other%0a* Bandwidth%0a** Can be somewhat mitigated, by placement and contour mapping -- [[Profiles/creichle|creichle]]%0a** Can also be mitigated by judicious use of licensed/unlicensed bands -- [[Profiles/creichle|creichle]]%0a** Is a physical limitation (Can't change the laws of physics) -- [[Profiles/creichle|creichle]]%0a!Regulatory%0a!Human Factors%0a* Man power -- [[Profiles/creichle|creichle]]%0a** I believe the timing is correct to start wide-spread "recruitment" via social media, interpersonal contacts, etc etc. -- [[Profiles/creichle|creichle]]%0a* Buy-in -- [[Profiles/creichle|creichle]]%0a!Uncategorized
+time=1411235113
+author:1411235113=creichle
+diff:1411235113:1411178887:=4c4%0a%3c * Hardware standardization -- [[Profiles/creichle|creichle]]%0a---%0a> * Hardware standardization%0a6c6%0a%3c * Proprietary tends to be more cutting edge, however costlier -- [[Profiles/creichle|creichle]]%0a---%0a> * Proprietary tends to be more cutting edge, however costlier%0a9,11c9,11%0a%3c ** Can be somewhat mitigated, by placement and contour mapping -- [[Profiles/creichle|creichle]]%0a%3c ** Can also be mitigated by judicious use of licensed/unlicensed bands -- [[Profiles/creichle|creichle]]%0a%3c ** Is a physical limitation (Can't change the laws of physics) -- [[Profiles/creichle|creichle]]%0a---%0a> ** Can be somewhat mitigated, by placement and contour mapping%0a> ** Can also be mitigated by judicious use of licensed/unlicensed bands%0a> ** Is a physical limitation (Can't change the laws of physics)%0a14,16c14,15%0a%3c * Man power -- [[Profiles/creichle|creichle]]%0a%3c ** I believe the timing is correct to start wide-spread "recruitment" via social media, interpersonal contacts, etc etc. -- [[Profiles/creichle|creichle]]%0a%3c * Buy-in -- [[Profiles/creichle|creichle]]%0a---%0a> * Man power%0a> * Buy-in%0a
+host:1411235113=173.245.55.206
+author:1411178887=khayes
+diff:1411178887:1411176913:=1d0%0a%3c This is a parking lot for any obstacles we encounter, which are suggested to us or that are well-known already. This list is a starting point for a process of fact-finding, cogitation and further research before we decide whether an obstacle is surmountable or not.%0a
+host:1411178887=173.245.55.187
+author:1411176913=creichle
+diff:1411176913:1411173839:=3d2%0a%3c * Hardware standardization%0a5d3%0a%3c * Proprietary tends to be more cutting edge, however costlier%0a7,10d4%0a%3c * Bandwidth%0a%3c ** Can be somewhat mitigated, by placement and contour mapping%0a%3c ** Can also be mitigated by judicious use of licensed/unlicensed bands%0a%3c ** Is a physical limitation (Can't change the laws of physics)%0a13,14d6%0a%3c * Man power%0a%3c * Buy-in%0a
+host:1411176913=173.245.55.206
+author:1411173839=khayes
+diff:1411173839:1411173839:=1,7d0%0a%3c (:toc-float:)%0a%3c !Technical - Hardware%0a%3c !Technical - Software%0a%3c !Technical - Other%0a%3c !Regulatory%0a%3c !Human Factors%0a%3c !Uncategorized%0a\ No newline at end of file%0a
+host:1411173839=173.245.55.187
