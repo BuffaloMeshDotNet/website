@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1419618467
+host=173.245.52.89
+name=News.FirstOfTheYear
+rev=1
+targets=Meetings.Meeting9
+text=Well, I hope everyone's holidays are/went well.  We'll be having the [[Meetings/Meeting 9|first meeting of the year]] on the second of January, at the Foundry.%0a%0aAnd, so people know, we're not dead here, just holidays and family time coming first as they should.  Progress has slowed a bit in the Kaisertown network, as nobody wants to discuss hardware with neighbors, just Christmas lights and food.%0a%0aWe have a call in to get some legal assistance for incorporation, and we're waiting to hear back from that.  More news to come after our meet up.  Hope to see all of you there!
+time=1419618467
+author:1419618467=creichle
+diff:1419618467:1419618467:=1,5d0%0a%3c Well, I hope everyone's holidays are/went well.  We'll be having the [[Meetings/Meeting 9|first meeting of the year]] on the second of January, at the Foundry.%0a%3c %0a%3c And, so people know, we're not dead here, just holidays and family time coming first as they should.  Progress has slowed a bit in the Kaisertown network, as nobody wants to discuss hardware with neighbors, just Christmas lights and food.%0a%3c %0a%3c We have a call in to get some legal assistance for incorporation, and we're waiting to hear back from that.  More news to come after our meet up.  Hope to see all of you there!%0a\ No newline at end of file%0a
+host:1419618467=173.245.52.89

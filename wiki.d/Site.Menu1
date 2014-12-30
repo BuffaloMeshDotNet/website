@@ -1,0 +1,66 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1416172407
+host=173.245.55.162
+name=Site.Menu1
+rev=18
+targets=Main.Email,Main.LiveChat,Main.FAQ,News.News,Meetings.Minutes,Meetings.FutureAgendas,Projects.Northampton,Projects.Kaisertown,Nodes.TP-LINKTL-WDR3600,Nodes.UbuiquityNanostations,Standards.Network,OrgStructure.OrgStructure,Lists.Lists,Outreach.BlockClubPresentation,Outreach.PrivateSector,Site.HtpasswdForm,Main.HomePage,Site.SideBar
+text=(:vmenu:)%0a*Contact Us%0a** [[Main/Email|Email]]%0a** [[Main/Live Chat]]%0a** [[https://groups.google.com/forum/#!forum/discuss-buffalomeshnet|Mailing List]]%0a*About%0a**[[Main/FAQ|FAQ]]%0a**[[News/News|News]]%0a*Meetings%0a** [[Meetings/Minutes]]%0a** [[Meetings/Future Agendas]]%0a*Projects%0a** [[Projects/Northampton]]%0a** [[Projects/Kaisertown]]%0a*Node Hardware%0a**[[Nodes/TP-LINKTL-WDR3600|TP-Link WDR3600]]%0a**[[Nodes/UbuiquityNanostations|Ubiquity Loco M5]]%0a*Draft Documents%0a** [[Standards/Network|Network Standards]]%0a** [[OrgStructure/OrgStructure|Organization Structure]]%0a* [[Lists/Lists]]%0a* Outreach Docs%0a** [[Outreach/Block Club Presentation]]%0a** [[Outreach/Private Sector]]%0a*Account%0a(:if auth edit:)%0a** [[Site/HtpasswdForm|Password Management]]\\%0a(:else:)%0a** [[Main/HomePage?action=login|Login]]%0a** [[Site/HtpasswdForm|Create A New Account]]\\%0a(:ifend:)%0a%0a%25right%25 [-[[Site.SideBar?action=edit | edit SideBar]]-]%0a(:menuend:)
+time=1416179297
+author:1416179297=creichle
+diff:1416179297:1416179241:=
+host:1416179297=173.245.55.162
+author:1416179241=creichle
+diff:1416179241:1416179159:=2,20c2,20%0a%3c *Contact Us%0a%3c ** [[Main/Email|Email]]%0a%3c ** [[Main/Live Chat]]%0a%3c ** [[https://groups.google.com/forum/#!forum/discuss-buffalomeshnet|Mailing List]]%0a%3c *About%0a%3c **[[Main/FAQ|FAQ]]%0a%3c **[[News/News|News]]%0a%3c *Meetings%0a%3c ** [[Meetings/Minutes]]%0a%3c ** [[Meetings/Future Agendas]]%0a%3c *Projects%0a%3c ** [[Projects/Northampton]]%0a%3c ** [[Projects/Kaisertown]]%0a%3c *Node Hardware%0a%3c **[[Nodes/TP-LINKTL-WDR3600|TP-Link WDR3600]]%0a%3c **[[Nodes/UbuiquityNanostations|Ubiquity Loco M5]]%0a%3c *Draft Documents%0a%3c ** [[Standards/Network|Network Standards]]%0a%3c ** [[OrgStructure/OrgStructure|Organization Structure]]%0a---%0a> %25sidehead%25 Contact Us%0a> * [[Main/Email|Email]]%0a> * [[Main/Live Chat]]%0a> * [[https://groups.google.com/forum/#!forum/discuss-buffalomeshnet|Mailing List]]%0a> %25sidehead%25About%0a> *[[Main/FAQ|FAQ]]%0a> *[[News/News|News]]%0a> %25sidehead%25Meetings%0a> * [[Meetings/Minutes]]%0a> * [[Meetings/Future Agendas]]%0a> %25sidehead%25Projects%0a> * [[Projects/Northampton]]%0a> * [[Projects/Kaisertown]]%0a> %25sidehead%25Node Hardware%0a> *[[Nodes/TP-LINKTL-WDR3600|TP-Link WDR3600]]%0a> *[[Nodes/UbuiquityNanostations|Ubiquity Loco M5]]%0a> %25sidehead%25Draft Documents%0a> * [[Standards/Network|Network Standards]]%0a> * [[OrgStructure/OrgStructure|Organization Structure]]%0a22,25c22,25%0a%3c * Outreach Docs%0a%3c ** [[Outreach/Block Club Presentation]]%0a%3c ** [[Outreach/Private Sector]]%0a%3c *Account%0a---%0a> %25sidehead%25Outreach Docs%0a> * [[Outreach/Block Club Presentation]]%0a> * [[Outreach/Private Sector]]%0a> %25sidehead%25Account%0a27c27%0a%3c ** [[Site/HtpasswdForm|Password Management]]\\%0a---%0a> * [[Site/HtpasswdForm|Password Management]]\\%0a29,30c29,30%0a%3c ** [[Main/HomePage?action=login|Login]]%0a%3c ** [[Site/HtpasswdForm|Create A New Account]]\\%0a---%0a> * [[Main/HomePage?action=login|Login]]%0a> * [[Site/HtpasswdForm|Create A New Account]]\\%0a
+host:1416179241=173.245.55.162
+author:1416179159=creichle
+diff:1416179159:1416179035:=2,33c2%0a%3c %25sidehead%25 Contact Us%0a%3c * [[Main/Email|Email]]%0a%3c * [[Main/Live Chat]]%0a%3c * [[https://groups.google.com/forum/#!forum/discuss-buffalomeshnet|Mailing List]]%0a%3c %25sidehead%25About%0a%3c *[[Main/FAQ|FAQ]]%0a%3c *[[News/News|News]]%0a%3c %25sidehead%25Meetings%0a%3c * [[Meetings/Minutes]]%0a%3c * [[Meetings/Future Agendas]]%0a%3c %25sidehead%25Projects%0a%3c * [[Projects/Northampton]]%0a%3c * [[Projects/Kaisertown]]%0a%3c %25sidehead%25Node Hardware%0a%3c *[[Nodes/TP-LINKTL-WDR3600|TP-Link WDR3600]]%0a%3c *[[Nodes/UbuiquityNanostations|Ubiquity Loco M5]]%0a%3c %25sidehead%25Draft Documents%0a%3c * [[Standards/Network|Network Standards]]%0a%3c * [[OrgStructure/OrgStructure|Organization Structure]]%0a%3c * [[Lists/Lists]]%0a%3c %25sidehead%25Outreach Docs%0a%3c * [[Outreach/Block Club Presentation]]%0a%3c * [[Outreach/Private Sector]]%0a%3c %25sidehead%25Account%0a%3c (:if auth edit:)%0a%3c * [[Site/HtpasswdForm|Password Management]]\\%0a%3c (:else:)%0a%3c * [[Main/HomePage?action=login|Login]]%0a%3c * [[Site/HtpasswdForm|Create A New Account]]\\%0a%3c (:ifend:)%0a%3c %0a%3c %25right%25 [-[[Site.SideBar?action=edit | edit SideBar]]-]%0a---%0a> (:pagelist group=News fmt=#sb1:)%0a
+host:1416179159=173.245.55.162
+author:1416179035=creichle
+diff:1416179035:1416179019:=2c2%0a%3c (:pagelist group=News fmt=#sb1:)%0a---%0a> (:pagelist link={$Name} fmt=#sb1:)%0a
+host:1416179035=173.245.55.162
+author:1416179019=creichle
+diff:1416179019:1416178989:=2c2,3%0a%3c (:pagelist link={$Name} fmt=#sb1:)%0a---%0a> *News%0a> **(:pagelist group=News -Main fmt=#sb1:)%0a
+host:1416179019=173.245.55.162
+author:1416178989=creichle
+diff:1416178989:1416178979:=3c3%0a%3c **(:pagelist group=News -Main fmt=#sb1:)%0a---%0a> (:pagelist group=News -Main fmt=#sb1:)%0a
+host:1416178989=173.245.55.162
+author:1416178979=creichle
+diff:1416178979:1416178964:=2d1%0a%3c *News%0a
+host:1416178979=173.245.55.162
+author:1416178964=creichle
+diff:1416178964:1416178940:=2c2%0a%3c (:pagelist group=News -Main fmt=#sb1:)%0a---%0a> (:pagelist group=News fmt=#sb1:)%0a
+host:1416178964=173.245.55.162
+author:1416178940=creichle
+diff:1416178940:1416178859:=2,3c2%0a%3c (:pagelist group=News fmt=#sb1:)%0a%3c (:menuend:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=News -Main:)%0a\ No newline at end of file%0a
+host:1416178940=173.245.55.162
+author:1416178859=creichle
+diff:1416178859:1416178832:=2c2,8%0a%3c (:pagelist group=News -Main:)%0a\ No newline at end of file%0a---%0a> *Item 1%0a> ** 1.1%0a> ** 1.2%0a> * Item 2%0a> ** 2.1%0a> * Item 3%0a> (:vmenuend:)%0a\ No newline at end of file%0a
+host:1416178859=173.245.55.162
+author:1416178832=creichle
+diff:1416178832:1416178679:=1c1%0a%3c (:vmenu:)%0a---%0a> (:emenu2:)%0a8c8%0a%3c (:vmenuend:)%0a\ No newline at end of file%0a---%0a> (:emenu2end:)%0a\ No newline at end of file%0a
+host:1416178832=173.245.55.162
+author:1416178679=creichle
+diff:1416178679:1416178611:=
+host:1416178679=173.245.55.162
+author:1416178611=creichle
+diff:1416178611:1416178300:=1,2c1%0a%3c (:emenu2:)%0a%3c *Item 1%0a---%0a> *%25hmenu%25Item 1%0a8d6%0a%3c (:emenu2end:)%0a\ No newline at end of file%0a
+host:1416178611=173.245.55.162
+author:1416178300=creichle
+diff:1416178300:1416178279:=2,3d1%0a%3c ** 1.1%0a%3c ** 1.2%0a5d2%0a%3c ** 2.1%0a6a4%0a> %25hmenu%25%0a\ No newline at end of file%0a
+host:1416178300=173.245.55.162
+author:1416178279=creichle
+diff:1416178279:1416178267:=1c1%0a%3c *%25hmenu%25Item 1%0a---%0a> %25hmenu%25* Item 1%0a
+host:1416178279=173.245.55.162
+author:1416178267=creichle
+diff:1416178267:1416178240:=1c1%0a%3c %25hmenu%25* Item 1%0a---%0a> (:hmenu:)* Item 1%0a4c4%0a%3c %25hmenu%25%0a\ No newline at end of file%0a---%0a> (:menuend:)%0a\ No newline at end of file%0a
+host:1416178267=173.245.55.162
+author:1416178240=creichle
+diff:1416178240:1416172407:=1c1%0a%3c (:hmenu:)* Item 1%0a---%0a> * Item 1%0a3,4c3%0a%3c * Item 3%0a%3c (:menuend:)%0a\ No newline at end of file%0a---%0a> * Item 3%0a\ No newline at end of file%0a
+host:1416178240=173.245.55.162
+author:1416172407=creichle
+diff:1416172407:1416172407:=1,3d0%0a%3c * Item 1%0a%3c * Item 2%0a%3c * Item 3%0a\ No newline at end of file%0a
+host:1416172407=173.245.55.162

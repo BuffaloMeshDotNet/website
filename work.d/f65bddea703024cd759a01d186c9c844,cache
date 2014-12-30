@@ -1,1 +1,1 @@
-a:2:{i:0;a:2:{i:0;s:12:"Site.SideBar";i:1;s:17:"Site.RightSideBar";}i:1;a:2:{s:12:"Site.SideBar";i:1;s:17:"Site.RightSideBar";i:1;}}
+a:2:{i:0;a:3:{i:0;s:12:"Site.SideBar";i:1;s:16:"Site.MenuSideBar";i:2;s:17:"Site.RightSideBar";}i:1;a:3:{s:12:"Site.SideBar";i:1;s:16:"Site.MenuSideBar";i:1;s:17:"Site.RightSideBar";i:1;}}

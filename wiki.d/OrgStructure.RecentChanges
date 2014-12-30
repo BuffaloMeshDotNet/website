@@ -1,9 +1,9 @@
 version=pmwiki-2.2.67 ordered=1 urlencoded=1
-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
 charset=UTF-8
 ctime=1410480757
-host=108.183.122.28
+host=173.245.52.29
 name=OrgStructure.RecentChanges
-rev=20
-text=* [[OrgStructure/OrgStructure]]  . . . October 19, 2014, at 03:17 PM by [[~creichle]]: [==]%0a* [[OrgStructure/Charter]]  . . . October 17, 2014, at 06:19 PM by [[~creichle]]: [==]%0a* [[OrgStructure/Charter-Draft]]  . . . September 20, 2014, at 01:42 PM by [[~creichle]]: [==]%0a* [[OrgStructure/Municipal]]  . . . September 19, 2014, at 05:58 PM by [[~khayes]]: [==]%0a* [[OrgStructure/Not-for-profit-type]]  . . . September 19, 2014, at 05:56 PM by [[~khayes]]: [==]%0a* [[OrgStructure/Cooperative]]  . . . September 19, 2014, at 05:54 PM by [[~khayes]]: [==]%0a* [[OrgStructure/For-profit-type]]  . . . September 18, 2014, at 01:24 PM by [[~creichle]]: [==]%0a
-time=1413746274
+rev=22
+text=* [[OrgStructure/Not-for-profit-type]]  . . . December 29, 2014, at 09:01 AM by [[~creichle]]: [==]%0a* [[OrgStructure/OrgStructure]]  . . . October 19, 2014, at 03:17 PM by [[~creichle]]: [==]%0a* [[OrgStructure/Charter]]  . . . October 17, 2014, at 06:19 PM by [[~creichle]]: [==]%0a* [[OrgStructure/Charter-Draft]]  . . . September 20, 2014, at 01:42 PM by [[~creichle]]: [==]%0a* [[OrgStructure/Municipal]]  . . . September 19, 2014, at 05:58 PM by [[~khayes]]: [==]%0a* [[OrgStructure/Cooperative]]  . . . September 19, 2014, at 05:54 PM by [[~khayes]]: [==]%0a* [[OrgStructure/For-profit-type]]  . . . September 18, 2014, at 01:24 PM by [[~creichle]]: [==]%0a
+time=1419861712

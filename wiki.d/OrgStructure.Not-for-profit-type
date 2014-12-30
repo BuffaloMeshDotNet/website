@@ -1,15 +1,21 @@
 version=pmwiki-2.2.67 ordered=1 urlencoded=1
-agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 OPR/24.0.1558.61
-author=khayes
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+author=creichle
 charset=UTF-8
 csum=
 ctime=1411163783
-host=173.245.55.187
+host=173.245.52.29
 name=OrgStructure.Not-for-profit-type
-rev=1
+rev=3
 targets=
-text=(:toc-float:)%0a%25rframe%25%25center%25%25fgcolor=red%25%25bgcolor=#ffeeee%25[++This is a draft document, and not a final standard.++]%0a%0aBrief description of the various flavors of not-for-profit organization.%0a
-time=1411163783
+text=(:toc-float:)%0a%25rframe%25%25center%25%25fgcolor=red%25%25bgcolor=#ffeeee%25[++This is a draft document, and not a final standard.++]%0a%0a{- Brief description of the various flavors of not-for-profit organization. -}%0a%0aAttach:articles_of_incorporation.odt
+time=1419861712
+author:1419861712=creichle
+diff:1419861712:1419861664:=6c6%0a%3c Attach:articles_of_incorporation.odt%0a\ No newline at end of file%0a---%0a> Attach:articles_of_incorporation.odf%0a\ No newline at end of file%0a
+host:1419861712=173.245.52.29
+author:1419861664=creichle
+diff:1419861664:1411163783:=4,6c4%0a%3c {- Brief description of the various flavors of not-for-profit organization. -}%0a%3c %0a%3c Attach:articles_of_incorporation.odf%0a\ No newline at end of file%0a---%0a> Brief description of the various flavors of not-for-profit organization.%0a
+host:1419861664=173.245.52.29
 author:1411163783=khayes
 diff:1411163783:1411163783:=1,4d0%0a%3c (:toc-float:)%0a%3c %25rframe%25%25center%25%25fgcolor=red%25%25bgcolor=#ffeeee%25[++This is a draft document, and not a final standard.++]%0a%3c %0a%3c Brief description of the various flavors of not-for-profit organization.%0a
 host:1411163783=173.245.55.187

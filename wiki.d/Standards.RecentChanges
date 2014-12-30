@@ -2,8 +2,8 @@ version=pmwiki-2.2.67 ordered=1 urlencoded=1
 agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
 charset=UTF-8
 ctime=1409263210
-host=38.97.88.20
+host=108.183.122.28
 name=Standards.RecentChanges
-rev=15
-text=* [[Standards/Network]]  . . . November 03, 2014, at 09:15 AM by [[~creichle]]: [=cleanup=]%0a* [[Standards/NodeMapManage]]  . . . September 05, 2014, at 11:07 PM by [[~creichle]]: [==]%0a
-time=1415024123
+rev=16
+text=* [[Standards/Network]]  . . . November 11, 2014, at 08:26 PM by [[~creichle]]: [==]%0a* [[Standards/NodeMapManage]]  . . . September 05, 2014, at 11:07 PM by [[~creichle]]: [==]%0a
+time=1415755561

@@ -10,8 +10,8 @@ $WikiTitle = 'BuffaloMesh.net';
 
 ##  $ScriptUrl is your preferred URL for accessing wiki pages
 ##  $PubDirUrl is the URL for the pub directory.
-$ScriptUrl = 'http://www.buffalomesh.net';
-$PubDirUrl = 'http://www.buffalomesh.net/wiki/pub';
+$ScriptUrl = 'https://www.buffalomesh.net';
+$PubDirUrl = 'https://www.buffalomesh.net/wiki/pub';
 
 ##  If you want to use URLs of the form .../pmwiki.php/Group/PageName
 ##  instead of .../pmwiki.php?p=Group.PageName, try setting
@@ -28,8 +28,13 @@ $PageLogoUrl = "$PubDirUrl/bmn.png";
 ## If you want to have a custom skin, then set $Skin to the name
 ## of the directory (in pub/skins/) that contains your skin files.
 ## See PmWiki.Skins and Cookbook.Skins.
-$Skin = 'bmn';
-
+#$Skin = 'bmn';
+ include_once("$FarmD/cookbook/detect_mobile.php");
+if(detect_mobile_device()) {
+   $Skin = 'ipmwiki'; # iphone mobile skin
+} else {
+   $Skin = 'bmn'; # the default skin
+} 
 ## You'll probably want to set an administrative password that you
 ## can use to get into password-protected pages.  Also, by default 
 ## the "attr" passwords for the PmWiki and Main groups are locked, so
@@ -69,8 +74,8 @@ $EnableGUIButtons = 1;
 ##  see PmWiki.UploadsAdmin.
 $EnableUpload = 1;
 # $UploadPermAdd = 0;
-$DefaultPasswords['upload'] = array('@admins');
-$DefaultPasswords['edit'] = array('@admins'); 
+$DefaultPasswords['upload'] = array('@members');
+$DefaultPasswords['edit'] = array('@members'); 
 #$DefaultPasswords['blogs'] = array('@admins');
  
 $UploadMaxSize = 15000000;
@@ -198,3 +203,8 @@ $EnablePageIndex=1;
 $FmtPV['$PageCreationDate'] = 'strftime("%Y-%m-%d", $page["ctime"])';
 ## to use the same format that you define in config.php with $TimeFmt use
 $FmtPV['$Created'] = "strftime(\$GLOBALS['TimeFmt'], \$page['ctime'])";
+
+$EnableMenuBar = TRUE;
+
+include_once("$FarmD/cookbook/menus.php");
+

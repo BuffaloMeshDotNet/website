@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1416170938
+host=173.245.55.162
+name=Site.MenuSideBar
+rev=1
+targets=Main.HomePage,Main.SideBar
+text=* [[ Main/HomePage | $WikiTitle Home ]]                 %0a* [[ Main/SideBar?action=edit | Edit Website Menu ]]    %0a* [[ Main/HomePage?action=logout | Log Out {$AuthId} ]]
+time=1416170938
+author:1416170938=creichle
+diff:1416170938:1416170938:=1,3d0%0a%3c * [[ Main/HomePage | $WikiTitle Home ]]                 %0a%3c * [[ Main/SideBar?action=edit | Edit Website Menu ]]    %0a%3c * [[ Main/HomePage?action=logout | Log Out {$AuthId} ]]%0a\ No newline at end of file%0a
+host:1416170938=173.245.55.162

@@ -1,15 +1,21 @@
 version=pmwiki-2.2.67 ordered=1 urlencoded=1
-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36
 author=creichle
 charset=UTF-8
 csum=
 ctime=1414421762
-host=38.97.88.20
+host=173.245.55.162
 name=News.News
-rev=3
+rev=5
 targets=
 text=(:pagelist group=News order=-ctime fmt=#include -Main -RecentChanges:)
-time=1414421917
+time=1416166371
+author:1416166371=creichle
+diff:1416166371:1416166344:=1c1%0a%3c (:pagelist group=News order=-ctime fmt=#include -Main -RecentChanges:)%0a\ No newline at end of file%0a---%0a> (:pagelist fmt=PagelistTemplateSamples#sidebartitles group=News count=4:)%0a\ No newline at end of file%0a
+host:1416166371=173.245.55.162
+author:1416166344=creichle
+diff:1416166344:1414421917:=1c1%0a%3c (:pagelist fmt=PagelistTemplateSamples#sidebartitles group=News count=4:)%0a\ No newline at end of file%0a---%0a> (:pagelist group=News order=-ctime fmt=#include -Main -RecentChanges:)%0a\ No newline at end of file%0a
+host:1416166344=173.245.55.162
 author:1414421917=creichle
 diff:1414421917:1414421811:=
 host:1414421917=38.97.88.20

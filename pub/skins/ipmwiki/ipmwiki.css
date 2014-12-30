@@ -1,0 +1,14 @@
+
+form {
+	margin: 0px;
+}
+textarea {
+	width: 296px;
+	height: 400px;
+	font-size:11pt;
+}
+
+#wikitext { 
+	margin-left:1px; 
+	margin-right:1px;
+}

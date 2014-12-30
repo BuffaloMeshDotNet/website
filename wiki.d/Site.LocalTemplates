@@ -1,15 +1,18 @@
 version=pmwiki-2.2.67 ordered=1 urlencoded=1
-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36
 author=creichle
 charset=UTF-8
 csum=
 ctime=1414418629
-host=38.97.88.20
+host=173.245.55.162
 name=Site.LocalTemplates
-rev=43
+rev=44
 targets=Site.FullName
-text=!!fmt=teasers%0a%0a[[#teasers]]%0a----- %0a%25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a%0a(:include {=$FullName} para=2:)%0a%0a(:if ! equal {>$Group}:)%0a----- %0a(:if:) %0a[[#teasersend]]%0a%0a!!fmt=#include%0a%0aConcatenate the text of pages in the list. (Note, this can be an expensive operation!)%0a[[#include]]%0a%25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$Name}]]'''%0a-----%0a(:include {=$FullName} self=0:)%0a%0a-----%0a[[#includeend]]
-time=1414435906
+text=!!fmt=teasers%0a%0a[[#teasers]]%0a----- %0a%25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|Read More]]'''%0a%0a(:include {=$FullName} para=2:)%0a%0a(:if ! equal {>$Group}:)%0a----- %0a(:if:) %0a[[#teasersend]]%0a%0a!!fmt=#include%0a%0aConcatenate the text of pages in the list. (Note, this can be an expensive operation!)%0a[[#include]]%0a%25lframe%25 {=$PageCreationDate} %25rframe%25'''[[{=$FullName}|{=$Name}]]'''%0a-----%0a(:include {=$FullName} self=0:)%0a%0a-----%0a[[#includeend]]%0a%0a[[#sb1]]%0a(:template defaults order=title:)%0a*[[{=$FullName}|{=$Titlespaced}]](:pagelist link={=$FullName} fmt=#sb2:)%0a[[#sb1end]]%0a%0a[[#sb2]]%0a(:template defaults order=title:)%0a*[[{=$FullName}|{=$Titlespaced}]](:pagelist link={=$FullName} fmt=#sb3:)%0a[[#sb2end]]%0a%0a[[#sb3]]%0a(:template defaults order=title:)%0a*[[{=$FullName}|{=$Titlespaced}]](:pagelist link={=$FullName} fmt=#sb4:)%0a[[#sb3end]]%0a%0a[[#sb4]]%0a(:template defaults order=title:)%0a*[[{=$FullName}|{=$Titlespaced}]]%0a[[#sb4end]]
+time=1416178914
+author:1416178914=creichle
+diff:1416178914:1414435906:=23,43c23%0a%3c [[#includeend]]%0a%3c %0a%3c [[#sb1]]%0a%3c (:template defaults order=title:)%0a%3c *[[{=$FullName}|{=$Titlespaced}]](:pagelist link={=$FullName} fmt=#sb2:)%0a%3c [[#sb1end]]%0a%3c %0a%3c [[#sb2]]%0a%3c (:template defaults order=title:)%0a%3c *[[{=$FullName}|{=$Titlespaced}]](:pagelist link={=$FullName} fmt=#sb3:)%0a%3c [[#sb2end]]%0a%3c %0a%3c [[#sb3]]%0a%3c (:template defaults order=title:)%0a%3c *[[{=$FullName}|{=$Titlespaced}]](:pagelist link={=$FullName} fmt=#sb4:)%0a%3c [[#sb3end]]%0a%3c %0a%3c [[#sb4]]%0a%3c (:template defaults order=title:)%0a%3c *[[{=$FullName}|{=$Titlespaced}]]%0a%3c [[#sb4end]]%0a\ No newline at end of file%0a---%0a> [[#includeend]]%0a\ No newline at end of file%0a
+host:1416178914=173.245.55.162
 author:1414435906=creichle
 diff:1414435906:1414435884:=19c19%0a%3c -----%0a---%0a> %0a
 host:1414435906=38.97.88.20
