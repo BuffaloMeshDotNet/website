@@ -1,10 +1,4 @@
 <?php if (!defined('PmWiki')) exit();
-##  This is a sample config.php file.  To use this file, copy it to
-##  local/config.php, then edit it for whatever customizations you want.
-##  Also, be sure to take a look at http://www.pmwiki.org/wiki/Cookbook
-##  for more details on the types of customizations that can be added
-##  to PmWiki.
-
 ##  $WikiTitle is the name that appears in the browser's title bar.
 $WikiTitle = 'BuffaloMesh.net';
 
@@ -23,18 +17,13 @@ $PubDirUrl = 'https://www.buffalomesh.net/wiki/pub';
 
 ## $PageLogoUrl is the URL for a logo image -- you can change this
 ## to your own logo if you wish.
-#$PageLogoUrl = "$PubDirUrl/skins/pmwiki/pmwiki-32.gif";
 $PageLogoUrl = "$PubDirUrl/bmn.png";
+
 ## If you want to have a custom skin, then set $Skin to the name
 ## of the directory (in pub/skins/) that contains your skin files.
 ## See PmWiki.Skins and Cookbook.Skins.
-#$Skin = 'bmn';
- include_once("$FarmD/cookbook/detect_mobile.php");
-if(detect_mobile_device()) {
-   $Skin = 'ipmwiki'; # iphone mobile skin
-} else {
-   $Skin = 'bmn'; # the default skin
-} 
+$Skin = 'bmn';
+
 ## You'll probably want to set an administrative password that you
 ## can use to get into password-protected pages.  Also, by default 
 ## the "attr" passwords for the PmWiki and Main groups are locked, so
@@ -73,12 +62,10 @@ $EnableGUIButtons = 1;
 ##  passwords on individual groups and pages.  For more information
 ##  see PmWiki.UploadsAdmin.
 $EnableUpload = 1;
-# $UploadPermAdd = 0;
 $DefaultPasswords['upload'] = array('@members');
 $DefaultPasswords['edit'] = array('@members'); 
-#$DefaultPasswords['blogs'] = array('@admins');
- 
 $UploadMaxSize = 15000000;
+
 ##  Setting $EnableDiag turns on the ?action=diag and ?action=phpinfo
 ##  actions, which often helps others to remotely troubleshoot 
 ##  various configuration and execution problems.
@@ -88,7 +75,7 @@ $UploadMaxSize = 15000000;
 ##  $EnableIMSCaching=1; will re-enable browser caches in a somewhat
 ##  smart manner.  Note that you may want to have caching disabled while
 ##  adjusting configuration files or layout templates.
-# $EnableIMSCaching = 1;                   # allow browser caching
+$EnableIMSCaching = 1;                   # allow browser caching
 
 ##  Set $SpaceWikiWords if you want WikiWords to automatically 
 ##  have spaces before each sequence of capital letters.
@@ -201,10 +188,10 @@ $EnablePageIndex=1;
 
 ## add page variable {$PageCreationDate} in format yyyy-mm-dd
 $FmtPV['$PageCreationDate'] = 'strftime("%Y-%m-%d", $page["ctime"])';
+
 ## to use the same format that you define in config.php with $TimeFmt use
 $FmtPV['$Created'] = "strftime(\$GLOBALS['TimeFmt'], \$page['ctime'])";
 
 $EnableMenuBar = TRUE;
 
 include_once("$FarmD/cookbook/menus.php");
-
