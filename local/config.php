@@ -31,7 +31,7 @@ $PageLogoUrl = "$PubDirUrl/bmn.png";
 #$Skin = 'bmn';
  include_once("$FarmD/cookbook/detect_mobile.php");
 if(detect_mobile_device()) {
-   $Skin = 'ipmwiki'; # iphone mobile skin
+   $Skin = 'adapt'; # iphone mobile skin
 } else {
    $Skin = 'bmn'; # the default skin
 } 

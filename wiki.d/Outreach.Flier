@@ -1,0 +1,24 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1420319190
+host=108.162.219.38
+name=Outreach.Flier
+rev=4
+targets=
+text=This was shamelessly cribbed from commotionwireless.net's sample outreach doc, with some modifications made.  I'd like to get that landing page to be at the very least, a static lander with information.%0a%0aI had the wife look it over, and even at 2 copies per 8.5x11 page, it's quite legible still.%0a%0aAttach:flier.png%0a%0aAttach:flier.pdf%0a%0aAttach:flier2.pdf%0a
+time=1420401625
+author:1420401625=creichle
+diff:1420401625:1420319541:=5,9c5%0a%3c Attach:flier.png%0a%3c %0a%3c Attach:flier.pdf%0a%3c %0a%3c Attach:flier2.pdf%0a---%0a> Attach:flier.png%0a\ No newline at end of file%0a
+host:1420401625=108.162.219.38
+author:1420319541=creichle
+diff:1420319541:1420319507:=2,3d1%0a%3c %0a%3c I had the wife look it over, and even at 2 copies per 8.5x11 page, it's quite legible still.%0a
+host:1420319541=173.245.52.89
+author:1420319507=creichle
+diff:1420319507:1420319190:=1,2d0%0a%3c This was shamelessly cribbed from commotionwireless.net's sample outreach doc, with some modifications made.  I'd like to get that landing page to be at the very least, a static lander with information.%0a%3c %0a
+host:1420319507=173.245.52.89
+author:1420319190=creichle
+diff:1420319190:1420319190:=1d0%0a%3c Attach:flier.png%0a\ No newline at end of file%0a
+host:1420319190=173.245.52.89
