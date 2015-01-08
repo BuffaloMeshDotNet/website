@@ -1,15 +1,18 @@
 version=pmwiki-2.2.67 ordered=1 urlencoded=1
-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
 author=creichle
 charset=UTF-8
 csum=
 ctime=1414359744
-host=38.97.88.20
+host=173.245.52.29
 name=Projects.Kaisertown
-rev=8
+rev=9
 targets=
-text=(:toc-float:)%0aThe Kaisertown local mesh network is a distributed mesh network, which is a fully routed mesh.  This means any and all hosts connected are completely routable, without the need for NAT.%0a%0a!Current Networks Presented%0aNetwork allocations for the Kaisertown mesh are currently:%0a||border=1 width=50%25%0a|| 10.84.93.0 ||BARNARD315||[[https://www.google.com/maps/place/42%25C2%25B052'25.0%2522N+78%25C2%25B048'19.9%2522W|42.873613,-78.8055229]]||%0a|| 10.94.245.0 ||TBD (Currently a spare)|| ||%0a%0a!Accesibility%0aThe network can be accessed via the Buffalomesh.net wireless network name.  Currently, the following services are provided on the mesh:%0a%0a||border=1 width=75%25%0a||A web based chat||[[http://10.84.93.50/meshchat/index.php|Mesh Chat]]||%0a||Software Library||[[http://10.84.93.50/software|Software]]||%0a||eBook Library||[[http://10.84.93.50/library/|eBooks]]||%0a||The Buffalomesh.net Site||[[http://10.84.93.50/|Buffalomesh.net]]||%0a%0aAll of these can be accessed by opening [[http://thisnode|This Node]] in a web browser once connected to the mesh.
-time=1415631500
+text=(:toc-float:)%0aThe Kaisertown local mesh network is a distributed mesh network, which is a fully routed mesh.  This means any and all hosts connected are completely routable, without the need for NAT.%0a%0a!Current Networks Presented%0aNetwork allocations for the Kaisertown mesh are currently:%0a||border=1 width=50%25%0a|| 10.84.93.0 ||BARNARD315||[[https://www.google.com/maps/place/42%25C2%25B052'25.0%2522N+78%25C2%25B048'19.9%2522W|42.873613,-78.8055229]]||%0a|| 10.94.245.0 ||TBD (Currently a spare)|| ||%0a%0a!Accesibility%0aThe network can be accessed via the Buffalomesh.net wireless network name.  Currently, the following services are provided on the mesh:%0a%0a||border=1 width=75%25%0a||A web based chat||[[http://10.84.93.50/meshchat/index.php|Mesh Chat]]||%0a||Software Library||[[http://10.84.93.50/software|Software]]||%0a||eBook Library||[[http://10.84.93.50/library/|eBooks]]||%0a||The Buffalomesh.net Site||[[http://10.84.93.50/|Buffalomesh.net]]||%0a%0aAll of these can be accessed by opening [[http://thisnode|This Node]] in a web browser once connected to the mesh.%0a%0a!Network Map%0aA work-in-progress map of the current network can be found at [[https://rocmesh.net]]
+time=1420657791
+author:1420657791=creichle
+diff:1420657791:1415631500:=19,22c19%0a%3c All of these can be accessed by opening [[http://thisnode|This Node]] in a web browser once connected to the mesh.%0a%3c %0a%3c !Network Map%0a%3c A work-in-progress map of the current network can be found at [[https://rocmesh.net]]%0a\ No newline at end of file%0a---%0a> All of these can be accessed by opening [[http://thisnode|This Node]] in a web browser once connected to the mesh.%0a\ No newline at end of file%0a
+host:1420657791=173.245.52.29
 author:1415631500=creichle
 diff:1415631500:1415327438:=16a17%0a> ||WWW Proxy Service||[[http://10.84.93.50/proxy|Web Proxy]]||%0a
 host:1415631500=38.97.88.20
