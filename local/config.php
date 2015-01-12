@@ -4,7 +4,7 @@ $WikiTitle = 'BuffaloMesh.net';
 
 ##  $ScriptUrl is your preferred URL for accessing wiki pages
 ##  $PubDirUrl is the URL for the pub directory.
-$ScriptUrl = 'https://www.buffalomesh.net';
+$ScriptUrl = 'https://www.buffalomesh.net/wiki';
 $PubDirUrl = 'https://www.buffalomesh.net/wiki/pub';
 
 ##  If you want to use URLs of the form .../pmwiki.php/Group/PageName

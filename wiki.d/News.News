@@ -1,15 +1,18 @@
 version=pmwiki-2.2.67 ordered=1 urlencoded=1
-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
 author=creichle
 charset=UTF-8
 csum=
 ctime=1414421762
-host=173.245.55.162
+host=173.245.52.89
 name=News.News
-rev=5
+rev=6
 targets=
-text=(:pagelist group=News order=-ctime fmt=#include -Main -RecentChanges:)
-time=1416166371
+text=The News section here has been deprecated, and moved to this location: [[http://www.buffalomesh.net/category/news/]]
+time=1421027990
+author:1421027990=creichle
+diff:1421027990:1416166371:=1c1%0a%3c The News section here has been deprecated, and moved to this location: [[http://www.buffalomesh.net/category/news/]]%0a\ No newline at end of file%0a---%0a> (:pagelist group=News order=-ctime fmt=#include -Main -RecentChanges:)%0a\ No newline at end of file%0a
+host:1421027990=173.245.52.89
 author:1416166371=creichle
 diff:1416166371:1416166344:=1c1%0a%3c (:pagelist group=News order=-ctime fmt=#include -Main -RecentChanges:)%0a\ No newline at end of file%0a---%0a> (:pagelist fmt=PagelistTemplateSamples#sidebartitles group=News count=4:)%0a\ No newline at end of file%0a
 host:1416166371=173.245.55.162
