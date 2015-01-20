@@ -1,0 +1,27 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1410657484
+host=173.245.52.29
+name=Projects.MastenPark
+rev=5
+targets=
+text=Wireless Network for Masten Park%0a(:toc-float:)%0a!Charter%0aTo deploy a wireless network, providing access to the BuffaloMesh.net wireless network for all clients.%0a!Required resources%0a* Minimum of 2 persons%0a* Ladder%0a* Power drill%0a* Wire cutters%0a* 2 pairs of work gloves%0a* Laptop or tablet%0a* 1 3 ft. patch cable%0a%0a%0a! Projected Timeline%0aIf only 2 persons are working, 3 nodes per day can feasibly be deployed.  Assuming one work party day per week, and 1 weeks per month, then this project should be complete by 1.5 months.%0a%0a!Budget%0a%0a||border=1%0a||!Item||!Price per unit||!Line Total||!Item Link||%0a||Slack Cost (Misc hardware)||$600.00||$600.00||This is miscellania, such as concrete anchors, wire ties, etc etc.||%0a|| || || || ||%0a||Total|| ||$600.00|| ||%0a
+time=1421682521
+author:1421682521=creichle
+diff:1421682521:1412477861:=1c1%0a%3c Wireless Network for Masten Park%0a---%0a> Wireless Network for Northampton%0a
+host:1421682521=173.245.52.29
+author:1412477861=creichle
+diff:1412477861:1410658260:=4c4%0a%3c To deploy a wireless network, providing access to the BuffaloMesh.net wireless network for all clients.%0a---%0a> To deploy a wireless network, providing internet access to all clients in the mapped area surrounding The Foundry%0a
+host:1412477861=108.183.122.28
+author:1410658260=creichle
+diff:1410658260:1410657531:=21a22%0a> || || || || ||%0a
+host:1410658260=173.245.55.206
+author:1410657531=creichle
+diff:1410657531:1410657484:=22c22%0a%3c || || || || ||%0a---%0a> ||NOne||$0.00||$0.00|| ||%0a
+host:1410657531=173.245.55.206
+author:1410657484=creichle
+diff:1410657484:1410657484:=1,25d0%0a%3c Wireless Network for Northampton%0a%3c (:toc-float:)%0a%3c !Charter%0a%3c To deploy a wireless network, providing internet access to all clients in the mapped area surrounding The Foundry%0a%3c !Required resources%0a%3c * Minimum of 2 persons%0a%3c * Ladder%0a%3c * Power drill%0a%3c * Wire cutters%0a%3c * 2 pairs of work gloves%0a%3c * Laptop or tablet%0a%3c * 1 3 ft. patch cable%0a%3c %0a%3c %0a%3c ! Projected Timeline%0a%3c If only 2 persons are working, 3 nodes per day can feasibly be deployed.  Assuming one work party day per week, and 1 weeks per month, then this project should be complete by 1.5 months.%0a%3c %0a%3c !Budget%0a%3c %0a%3c ||border=1%0a%3c ||!Item||!Price per unit||!Line Total||!Item Link||%0a%3c ||NOne||$0.00||$0.00|| ||%0a%3c ||Slack Cost (Misc hardware)||$600.00||$600.00||This is miscellania, such as concrete anchors, wire ties, etc etc.||%0a%3c || || || || ||%0a%3c ||Total|| ||$600.00|| ||%0a
+host:1410657484=173.245.55.206
