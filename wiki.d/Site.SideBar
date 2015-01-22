@@ -3,13 +3,16 @@ agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
 author=creichle
 charset=UTF-8
 csum=
-host=173.245.52.29
+host=108.162.240.61
 name=Site.SideBar
 passwdedit=@_site_edit
-rev=157
-targets=Main.HomePage,Main.Email,Main.LiveChat,Meetings.Minutes,Meetings.FutureAgendas,Projects.MastenPark,Projects.Kaisertown,Nodes.Nodes,Standards.Network,OrgStructure.Not-for-profit-type,Lists.Lists,Outreach.BlockClubPresentation,Outreach.PrivateSector,Site.HtpasswdForm,Site.SideBar
-text=%25sidehead%25[[Main/HomePage|Home]]\\%0a%25sidehead%25Collaboration%0a* [[Main/Email|Email]]%0a* [[Main/Live Chat]]%0a* [[https://groups.google.com/forum/#!forum/discuss-buffalomeshnet|Mailing List]]%0a%25sidehead%25Meetings%0a* [[Meetings/Minutes]]%0a* [[Meetings/Future Agendas]]%0a%25sidehead%25Projects%0a* [[Projects/Masten Park]]%0a* [[Projects/Kaisertown]]%0a%25sidehead%25[[Nodes/Nodes|Node Hardware]]\\%0a%25sidehead%25Draft Documents%0a* [[Standards/Network|Network Standards]]%0a* [[OrgStructure/Not-for-profit-type|Organization Structure]]%0a* [[Lists/Lists]]%0a%25sidehead%25Outreach Docs%0a* [[Outreach/Block Club Presentation]]%0a* [[Outreach/Private Sector]]%0a%25sidehead%25Account%0a(:if auth edit:)%0a* [[Site/HtpasswdForm|Password Management]]\\%0a(:else:)%0a* [[Main/HomePage?action=login|Login]]%0a* [[Site/HtpasswdForm|Create A New Account]]\\%0a(:ifend:)%0a%0a%25right%25 [-[[Site.SideBar?action=edit | edit SideBar]]-]
-time=1421682508
+rev=158
+targets=Main.HomePage,Main.Email,Main.LiveChat,Meetings.Minutes,Meetings.FutureAgendas,Projects.MastenPark,Projects.Kaisertown,Nodes.Nodes,Standards.Network,OrgStructure.Not-for-profit-type,Lists.Lists,Outreach.BlockClubPresentation,Outreach.PrivateSector,Outreach.Flier,Outreach.WifiSign,Site.HtpasswdForm,Site.SideBar
+text=%25sidehead%25[[Main/HomePage|Home]]\\%0a%25sidehead%25Collaboration%0a* [[Main/Email|Email]]%0a* [[Main/Live Chat]]%0a* [[https://groups.google.com/forum/#!forum/discuss-buffalomeshnet|Mailing List]]%0a%25sidehead%25Meetings%0a* [[Meetings/Minutes]]%0a* [[Meetings/Future Agendas]]%0a%25sidehead%25Projects%0a* [[Projects/Masten Park]]%0a* [[Projects/Kaisertown]]%0a%25sidehead%25[[Nodes/Nodes|Node Hardware]]\\%0a%25sidehead%25Draft Documents%0a* [[Standards/Network|Network Standards]]%0a* [[OrgStructure/Not-for-profit-type|Organization Structure]]%0a* [[Lists/Lists]]%0a%25sidehead%25Outreach Docs%0a* [[Outreach/Block Club Presentation]]%0a* [[Outreach/Private Sector]]%0a* [[Outreach/Flier]]%0a* [[Outreach/Wifi Sign]]%0a%25sidehead%25Account%0a(:if auth edit:)%0a* [[Site/HtpasswdForm|Password Management]]\\%0a(:else:)%0a* [[Main/HomePage?action=login|Login]]%0a* [[Site/HtpasswdForm|Create A New Account]]\\%0a(:ifend:)%0a%0a%25right%25 [-[[Site.SideBar?action=edit | edit SideBar]]-]
+time=1421867561
+author:1421867561=creichle
+diff:1421867561:1421682508:=20,21d19%0a%3c * [[Outreach/Flier]]%0a%3c * [[Outreach/Wifi Sign]]%0a
+host:1421867561=108.162.240.61
 author:1421682508=creichle
 diff:1421682508:1421028116:=10c10%0a%3c * [[Projects/Masten Park]]%0a---%0a> * [[Projects/Northampton]]%0a
 host:1421682508=173.245.52.29
@@ -70,6 +73,3 @@ host:1416179279=173.245.55.162
 author:1416179264=creichle
 diff:1416179264:1416178358:=1,20c1,19%0a%3c (:vmenu:)%0a%3c *Contact Us%0a%3c ** [[Main/Email|Email]]%0a%3c ** [[Main/Live Chat]]%0a%3c ** [[https://groups.google.com/forum/#!forum/discuss-buffalomeshnet|Mailing List]]%0a%3c *About%0a%3c **[[Main/FAQ|FAQ]]%0a%3c **[[News/News|News]]%0a%3c *Meetings%0a%3c ** [[Meetings/Minutes]]%0a%3c ** [[Meetings/Future Agendas]]%0a%3c *Projects%0a%3c ** [[Projects/Northampton]]%0a%3c ** [[Projects/Kaisertown]]%0a%3c *Node Hardware%0a%3c **[[Nodes/TP-LINKTL-WDR3600|TP-Link WDR3600]]%0a%3c **[[Nodes/UbuiquityNanostations|Ubiquity Loco M5]]%0a%3c *Draft Documents%0a%3c ** [[Standards/Network|Network Standards]]%0a%3c ** [[OrgStructure/OrgStructure|Organization Structure]]%0a---%0a> %25sidehead%25 Contact Us%0a> * [[Main/Email|Email]]%0a> * [[Main/Live Chat]]%0a> * [[https://groups.google.com/forum/#!forum/discuss-buffalomeshnet|Mailing List]]%0a> %25sidehead%25About%0a> *[[Main/FAQ|FAQ]]%0a> *[[News/News|News]]%0a> %25sidehead%25Meetings%0a> * [[Meetings/Minutes]]%0a> * [[Meetings/Future Agendas]]%0a> %25sidehead%25Projects%0a> * [[Projects/Northampton]]%0a> * [[Projects/Kaisertown]]%0a> %25sidehead%25Node Hardware%0a> *[[Nodes/TP-LINKTL-WDR3600|TP-Link WDR3600]]%0a> *[[Nodes/UbuiquityNanostations|Ubiquity Loco M5]]%0a> %25sidehead%25Draft Documents%0a> * [[Standards/Network|Network Standards]]%0a> * [[OrgStructure/OrgStructure|Organization Structure]]%0a22,25c21,24%0a%3c * Outreach Docs%0a%3c ** [[Outreach/Block Club Presentation]]%0a%3c ** [[Outreach/Private Sector]]%0a%3c *Account%0a---%0a> %25sidehead%25Outreach Docs%0a> * [[Outreach/Block Club Presentation]]%0a> * [[Outreach/Private Sector]]%0a> %25sidehead%25Account%0a27c26%0a%3c ** [[Site/HtpasswdForm|Password Management]]\\%0a---%0a> * [[Site/HtpasswdForm|Password Management]]\\%0a29,30c28,29%0a%3c ** [[Main/HomePage?action=login|Login]]%0a%3c ** [[Site/HtpasswdForm|Create A New Account]]\\%0a---%0a> * [[Main/HomePage?action=login|Login]]%0a> * [[Site/HtpasswdForm|Create A New Account]]\\%0a34d32%0a%3c (:menuend:)%0a\ No newline at end of file%0a
 host:1416179264=173.245.55.162
-author:1416178358=creichle
-diff:1416178358:1416178336:=32a33,39%0a> %0a> *%25hmenu%25Item 1%0a> ** 1.1%0a> ** 1.2%0a> * Item 2%0a> ** 2.1%0a> * Item 3%0a
-host:1416178358=173.245.55.162

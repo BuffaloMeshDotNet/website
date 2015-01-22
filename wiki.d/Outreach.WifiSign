@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1421867593
+host=108.162.240.61
+name=Outreach.WifiSign
+rev=1
+targets=
+text=A flier to post around where you pop up a node.  Lamination suggested :)%0a%0aAttach:FreeWifi.odt
+time=1421867593
+author:1421867593=creichle
+diff:1421867593:1421867593:=1,3d0%0a%3c A flier to post around where you pop up a node.  Lamination suggested :)%0a%3c %0a%3c Attach:FreeWifi.odt%0a\ No newline at end of file%0a
+host:1421867593=108.162.240.61
