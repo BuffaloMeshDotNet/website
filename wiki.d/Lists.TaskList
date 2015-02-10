@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1423507610
+host=108.162.240.61
+name=Lists.TaskList
+rev=1
+targets=
+text=* Get a plan together for evangelizing%0a* Do a neighborhood survey%0a* Install new node in K town%0a* Post fliers in Masten park
+time=1423507610
+author:1423507610=creichle
+diff:1423507610:1423507610:=1,4d0%0a%3c * Get a plan together for evangelizing%0a%3c * Do a neighborhood survey%0a%3c * Install new node in K town%0a%3c * Post fliers in Masten park%0a\ No newline at end of file%0a
+host:1423507610=108.162.240.61
