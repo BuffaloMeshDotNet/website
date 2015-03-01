@@ -1,0 +1,15 @@
+version=pmwiki-2.2.67 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+author=creichle
+charset=UTF-8
+csum=
+ctime=1425144126
+host=173.245.55.162
+name=Meetings.Meeting12
+rev=1
+targets=
+text=Meeting #12: Friday, March 6th 6:30pm\\%0aLocation: [[http://thefoundrybuffalo.org|The Foundry]], 298 Northampton Street, Buffalo.\\%0aDial-in Information: (605) 562-0020 Meeting ID: 128-389-999%0a%0a----%0a%0aRSVP: http://www.meetup.com/buffalolab/events/220399851/%0a%0a(:toc-float:)%0a----%0a%0a!Action Items%0a* Get things ready for Second Saturday%0a* Start strategizing for group outreach%0a%0a----%0a!Business items%0a* Second Saturday%0a* Recap:%0a** Wellness Institute or Self-Incorporating%0a** Second Saturday Planning%0a* Client Outreach efforts%0a* Volunteer Outreach efforts%0a%0a!Goals%0a* Let's review our short term, mid-term, and long-term goals and strategy this meetup.  There's been too much cruft floating, and not re-examined.
+time=1425144126
+author:1425144126=creichle
+diff:1425144126:1425144126:=1,26d0%0a%3c Meeting #12: Friday, March 6th 6:30pm\\%0a%3c Location: [[http://thefoundrybuffalo.org|The Foundry]], 298 Northampton Street, Buffalo.\\%0a%3c Dial-in Information: (605) 562-0020 Meeting ID: 128-389-999%0a%3c %0a%3c ----%0a%3c %0a%3c RSVP: http://www.meetup.com/buffalolab/events/220399851/%0a%3c %0a%3c (:toc-float:)%0a%3c ----%0a%3c %0a%3c !Action Items%0a%3c * Get things ready for Second Saturday%0a%3c * Start strategizing for group outreach%0a%3c %0a%3c ----%0a%3c !Business items%0a%3c * Second Saturday%0a%3c * Recap:%0a%3c ** Wellness Institute or Self-Incorporating%0a%3c ** Second Saturday Planning%0a%3c * Client Outreach efforts%0a%3c * Volunteer Outreach efforts%0a%3c %0a%3c !Goals%0a%3c * Let's review our short term, mid-term, and long-term goals and strategy this meetup.  There's been too much cruft floating, and not re-examined.%0a\ No newline at end of file%0a
+host:1425144126=173.245.55.162
